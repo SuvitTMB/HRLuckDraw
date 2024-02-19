@@ -11,7 +11,7 @@ var EidEmpNumber = "";
 
 $(document).ready(function () {
 
-
+/*
   sessionStorage.clear(); 
   var str = "";
   var sLineID = "Ua6b6bf745bd9bfd01a180de1a05c23b3";
@@ -25,14 +25,14 @@ $(document).ready(function () {
   $("#MyProfile").html(str);  
   Connect_DB();
   CheckData();
-
+*/
  
-  //main();
+  main();
 });
 
 
 async function main() {
-  await liff.init({ liffId: "1657509542-2M0aveD3" });
+  await liff.init({ liffId: "1657509542-bvDgKQpe" });
   document.getElementById("isLoggedIn").append(liff.isLoggedIn());
   if(liff.isLoggedIn()) {
     getUserProfile();
