@@ -1,0 +1,122 @@
+<!-- https://guru.sanook.com/4405/ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>อั่งเปาโชคสองชั้น กับ ทีทีบี</title>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PW7HPDW');</script>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <!--
+  <link rel="stylesheet"
+  href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"/>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+-->
+
+  <!-- Google Fonts -->
+  <link href="assets/img/favicom.ico" rel="icon">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <!--<link href="assets/css/ttb.css" rel="stylesheet">-->
+  <link href="assets/css/css.css" rel="stylesheet">
+  <link href="assets/css/moon.css" rel="stylesheet">
+  <link href="assets/css/game.css" rel="stylesheet">
+  <!--
+  <link href="assets/css/w3.css" rel="stylesheet">
+  <link href="assets/css/form.css" rel="stylesheet">
+  <link href="assets/css/hand.css" rel="stylesheet">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+-->
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-firestore.js"></script>
+  <style>
+    .col-xs-4 { width:48%; border-radius:10PX; }
+    .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 { margin:2px; }
+    .modal-content { 
+      width:90%; max-width:350px; margin:auto;
+    }
+  </style>
+</head>
+
+<body class="body2" data-spy="scroll" data-target=".navbar" data-offset="60" style="min-height: 60vh; margin-top:0px;">
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PW7HPDW"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+      <h1 class="logo mr-auto"><a href="index.html"><span>อั่งเปาโชคสองชั้น</span> กับ ทีทีบี</a></h1>
+    </div>
+  </header>
+
+  <main>
+    <div class="container" style="width:100%; max-width:450px;">
+      <div style="text-align: center;margin-top:80px;"><img src="./img/text-header.png" style="width:220px;"></div>
+      <div id="MyProfile" style="margin:20px auto;"></div>
+
+      <div id="loading" style="margin-top:100px;">
+        <div><img src="./img/loading1.gif" style="width:50px;"></div>
+      </div>
+
+      <div id="CheckGame" style="display: none;">
+        <div style="text-align: center; margin-top:25px; color:#ffff00;font-weight: 600; font-size: 18px;">ลุ้นโชคชั้นที่ 1</div>
+        <div style="text-align: center; margin-top:0px; color:#ffff00;">ลุ้นรับเงินสดมูลค่า 1,000 - 5,000 บาท </div>
+        <div class="row rand-item-container" style="margin:20px;"></div>
+        <div id="OpenClick">
+          <center>
+            <button class="btn btn-primary btn-lg" id="startRand" style="background: #0056ff; font-size: 14px; border:1px #fff solid;">คลิกลุ้นโชคชั้นที่ 1</button>
+            <div class="btn btn-primary btn-lg" onClick="window.location='home.html';" style="background: #6c757d; font-size: 14px; border:1px #fff solid;">ยังไม่ลุ้นโชคตอนนี้</div>
+          </center>
+        </div>
+        <div id="OpenGoHome" style="display:none;">
+            <div class="btn btn-primary btn-lg" onClick="window.location='home.html';" style="background: #6c757d; font-size: 14px; border:1px #fff solid;">กลับไปหน้าแรก</div>
+          </center>
+        </div>
+        <div id="OpenButtom" style="display: block;">
+        </div>
+
+        <div class="modal fade" tabindex="-1" role="dialog" id="randResult-modal">
+          <div class="modal-dialog" role="document" style="margin-top:140px;">
+            <div class="modal-content" style="background: #fd7e14; border-radius:10px; color:#fff;" >
+              <div class="modal-body">
+                <div style="margin-top:20px;">ผลการสุ่ม ลุ้นโชคชั้นที่ 1<br>คุณได้รับรางวัลเงินสด</div>
+                <p class="h1 text-center" id="randResult" style="margin-top:14px;">ใคร?</p>
+              </div>
+              <div id="DisplayYourTeam"></div>
+              <div class="clr"></div>
+              <div class="modal-footer">
+                <center>
+                  <button type="button" class="btn btn-default" id="randResult-close">ปิด</button>
+                </center>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div>
+      </div>
+      <div id="CheckEndGame" style="display: none;">
+        <div id="MyRewards"></div>
+      </div>
+
+    </div>
+    <div class="clr"></div>
+  </main>
+
+  <div class="clr" style="height: 10px;"></div>
+
+
+  <script src="./js/connect.js"></script>
+  <script src="./js/menu.js"></script>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js'></script>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+  <script src='https://www.peat-network.xyz/js/random.min.js'></script>
+  <script src="./js/game1.js"></script>
+  <body>
+</html>

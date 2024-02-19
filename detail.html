@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>LINE Retail Society</title>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PW7HPDW');</script>
+  <!-- Favicons -->
+  <link href="assets/img/favicom.ico" rel="icon">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/button.css" rel="stylesheet">
+  <link href="assets/css/css.css" rel="stylesheet">
+  <link href="assets/css/w3.css" rel="stylesheet">
+  <link href="assets/css/moon.css" rel="stylesheet">
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://static.line-scdn.net/liff/edge/versions/2.12.0/sdk.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-storage.js"></script>
+  <style type="text/css">
+    .form-control { 
+      color: #0056ff; font-weight: 600; font-size: 13px;
+      line-height: 1.3; background: #f1f1f1;
+    }
+    input {
+        text-align: left;
+        margin-top: 3px;
+        font-size: 13px;
+        padding: 6px 12px;
+        text-align: center;
+        color:#0056ff;
+        font-weight: 400;
+        width: 100%;
+        border-radius: 3px;
+        border: 1px solid #dcdcdc;
+        background: #f2f4f6;
+    }
+  </style>
+</head>
+
+<body style="background-color: #c6cace;">
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PW7HPDW"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+
+  <div class="navbar1" style="background: #ffd2d2;">
+    <div style="background: #003cb2; height: 75px;border-top: 1px solid #fff;">
+      <div style="max-width: 400px; margin:auto; text-align: center;">
+        <div class="iconlink" onClick="window.location='home.html';">
+          <div><img src="./img/icon-thong.png" style="width:25px;"></div>
+          <div style="font-size: 11px;">หน้าแรก</div>
+        </div>
+        <div class="iconlink" onClick="window.location='game.html';">
+          <div><img src="./img/icon-online.png" style="width:25px;"></div>
+          <div style="font-size: 11px;">ลุ้นโชค</div>
+        </div>
+        <div class="iconlink" onClick="window.location='history.html';">
+          <div><img src="./img/icon-history.png" style="width:25px;"></div>
+          <div style="font-size: 11px;">ประวัติ</div>
+        </div>
+        <div class="iconlink" onClick="window.location='rewards.html';">
+          <div><img src="./img/icon-gift.png" style="width:25px;"></div>
+          <div style="font-size: 11px;">รางวัล</div>
+        </div>
+        <div class="iconlink" onClick="window.location='detail.html';" style="background-color: #002d63;">
+          <div><img src="./img/icon-detail.png" style="width:25px;"></div>
+          <div style="font-size: 11px;">รายละเอียด</div>
+        </div>
+      </div>   
+   </div>
+  </div>
+
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+      <h1 class="logo mr-auto"><a href="index.html"><span>LINE</span> Retail Society</a></h1>
+      <div class="mobile-nav-toggle d-lg-none" onclick="OpenPopMenu()">
+        <i class="icofont-navigation-menu"></i>
+      </div>
+    </div>
+  </header>
+
+
+
+
+  <main>
+      <div class="container">
+        <div class="section-title">
+          <center>
+            <div class="btn-1" style="margin:90px auto 20px auto;background: #026ddf;">ชวนเพื่อนเข้าร่วมกิจกรรม</div>
+            <div><img src="./img/QRCode-LINERetailSociety.png" style="width:250px; border-radius: 8px;"></div>
+            <div style="margin-top:15px;text-align:center; left;line-height: 1.3;color:#000;"><b>ชวนเพื่อนสแกนเข้าร่วมกิจกรรม<br>อั่งเปาโชคสองชั้น กับ ทีทีบี</b><br>
+            </div>
+          </center>
+        </div>
+      </div>
+    <div class="clr"></div>
+  </main>
+
+    <section>
+      <center>
+        <div class="btn-1" style="margin:20px auto 10px auto; background: #026ddf;">บันทึกข้อตกลงการเข้าร่วมกิจกรรม<br><b>อั่งเปาโชคสองชั้น กับ ทีทีบี</div>
+      </center>
+      <div class="container">
+
+        <div class="section-title">
+          <center>
+            <div style="text-align: left;margin-top:20px;width:100%;max-width: 500px;">
+              <div style="width:100%; float: left;font-size: 13px; color:#000;line-height: 1.3; font-weight: 400;">โครงการพิเศษเพื่อมอบรางวัลให้แก่พนักงาน Outsource ที่ถือเป็นเพื่อนร่วมทางชาวทีทีบี ผู้ให้การสนับสนุนทำงาน ทำให้พนักงานทีทีบี Make REAL Change สามารถทำงานเพื่อสร้าง Financial Well-being หรือ ชีวิตทางการเงินที่ดีขึ้นให้กับลูกค้าและคนไทยทั้งประเทศ ณสมบัติผู้เข้าร่วมโครงการ<br><br>
+              <ul style="margin-left:-20px;">
+                <li>พนักงาน Outsource ที่มีอายุงานครบ 1 ปีบริบูรณ์ขึ้นไป ณ วันที่ 31 ธันวาคม 2566  (เข้างานก่อนหรือในวันที่ 1 มกราคม 2566)</li>
+                <li>มีสถานะเป็นพนักงาน Outsource ของทีทีบี ณ วันที่มอบรางวัล</li>
+              </ul>
+
+              <br><b><u>วัตถุประสงค์โครงการ</u></b>
+              <br>โครงการ อั่งเปาโชค 2 ชั้นจากทีทีบี จัดทำขึ้น เพื่อให้สิทธิแก่พนักงาน Outsource ของทีทีบี ได้ร่วมในการสุ่มรับรางวัล ตามหลักเกณฑ์และเงื่อนไขที่ธนาคารกำหนด
+
+
+              <br><br><b><u>อั่งเปาโชคสองชั้น</u></b>
+              <ul style="margin-left:-20px;">
+                <li>โชคชั้นที่ 1  ลุ้นรับเงินสดมูลค่า 1,000 - 5,000 บาท </li>
+                <li>โชคชั้นที่ 2  ลุ้นรับของรางวัลใหญ่ 3 รางวัล<br>
+                  <br>- รางวัลที่  1    จักรยานยนต์ Honda Scoopy Max Club12 จำนวน 1 รางวัล
+                  <br>- รางวัลที่ 2 ทองคำหนัก 1 บาท จำนวน 1 รางวัล
+                  <br>- รางวัลที่ 3   โทรศัพท์มือถือ จำนวน 1 รางวัล
+                </li>
+              </ul>
+
+              <br><b><u>การมอบรางวัล</u></b>
+              <ul style="margin-left:-20px;">
+                <li>เพื่อนพนักงานจะได้รับรางวัลเงินสด เข้าบัญชีที่แจ้งธนาคารไว้สำหรับรับเงินเดือน ในวันที่ 29 กุมภาพันธ์ 2567 (จ่าย 1 รอบ) </li>
+                <li>ทรัพยากรบุคคลจะติดต่อผู้โชคดีที่ได้รับรางวัลใหญ่ 3 รางวัล ภายใน 8 มีนาคม 2567</li>
+              </ul>
+            </div>
+            <div class="clr"></div>
+            <div style="text-align: left;font-size: 13px; color:#000;line-height: 1.3;margin-top:20px;max-width: 500px;font-weight: 400;">
+              <b><u>บันทึกการยืนยันเข้าร่วมกิจกรรม</u></b><br>
+              ข้าพเจ้ารับทราบและตกลงยินยอมให้ธนาคารเก็บรวบรวม ใช้ หรือเปิดเผยข้อมูลส่วนบุคคลของข้าพเจ้าที่ได้ให้ไว้ เพื่อดำเนินการตามวัตถุประสงค์ของโครงการ อั่งเปาโชค 2 ชั้นจากทีทีบี และยอมรับหลักเกณฑ์ที่ธนาคารกำหนดไว้ทั้งหมด 
+              <br><br>วันที่ท่านได้ทำการยืนยันการเข้าใช้สิทธิ์ ....................
+            </div>
+            <div class="btn-t1" onClick="window.location='home.html';">คลิกเพื่อเข้าร่วมกิจกรรม</div>
+          </center>
+        </div>
+      </div>
+    </section>
+    <div class="clr" style="height: 50px;"></div>
+  </main>
+
+  <div id="id01" class="w3-modal w3-animate-opacity">
+    <div class="w3-modal-content w3-card-4">
+      <div class="w3-container" style="min-height:300px;padding:24px;width:100%;text-align:center;">
+
+        <center>
+          <div class="btn-t22a" style="margin:15px auto 10px auto;">ชวนเพื่อนเข้าร่วมกิจกรรม</div>
+          <div><img src="./img/QRCode-LINERetailSociety.png" style="width:250px;"></div>
+          <div style="margin:15px auto 10px auto;text-align: left;line-height: 1.3;">ง่าย ๆ กับ 4 ขั้นตอนในการชวนเพื่อน ๆ เข้าร่วมกิจกรรมของ <b>LINE Retail Society</b><br><br>
+            1. สแกนที่ QR Code เพื่อเข้าสู่ <b>LINE Retail Society</b><br>
+            2. คลิกเข้าสู่ <b>LINE Retail Society</b><br>
+            3. คลิกที่เมนูระบบงาน <br>
+            4. เลือกระบบงานที่ต้องการเข้าใช้งาน
+          </div>
+        </center>
+        <div onclick="CloseAll()" class="btn-t2">ปิดหน้าต่าง</div>
+      </div>
+    </div>
+    <div class="clr" style="height: 70px;"></div>
+  </div>
+
+  <div id="menu" class="w3-modal w3-animate-opacity">
+    <div class="w3-modal-content w3-card-4 bg-menu">
+      <div class="w3-container" style="min-height:300px;width:100%;text-align:center;padding:0px;margin-bottom: 20px;background-color: #00ae3d;">
+        <div id="MenuSociety"></div>
+      </div>
+    </div>
+    <div class="clr" style="height:40px;"></div>
+  </div>
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files #dde7f0-->
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+
+  <script src="./js/connect.js"></script>
+  <script src="./assets/js/main.js"></script>
+  <script src="./js/menu.js"></script>
+<!--
+-->
+</body>
+</html>
