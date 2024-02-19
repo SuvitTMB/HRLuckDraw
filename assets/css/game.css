@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Anuphan&display=swap");
+body {
+  font-family: Anuphan, sans-serif;
+  font-size: 14px;
+  background-color: lightblue;
+  text-align: center;
+}
+
+h1 {
+  font-family: Anuphan, sans-serif;
+  font-size: 20px;
+}
+
+.rand-item {
+  border: 2px #fff solid;
+  background-color: #f1f1f1;
+  font-weight: 600;
+  height: 60px;
+  display: table;
+  padding:4px 2px;
+}
+
+.rand-item.selected {
+  background-color: #0056ff;
+  color: white;
+}
+
+
+.rand-item.selectedEND {
+  background-color: #f68b1f;
+  color: white;
+}
+
+.rand-item > span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.row {
+  margin-bottom: 10px;
+}
+.profile-team1 {
+  border-radius: 14px; width:90px; height: 90px; 
+}
