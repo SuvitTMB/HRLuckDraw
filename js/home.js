@@ -40,9 +40,9 @@ function CheckData() {
         str += '<div class="btn-menu">';
           str += '<div style="width:40%; float: left;text-align:center;"><img src="./img/icons-giftbox.png" style="width:100px;"></div>';
         //str += '<div style="width:40%; float: left;text-align:center;"><img src="./img/Seamasi-07.png" style="width:110px;padding-top:5px;"></div>';
-        str += '<div style="width:60%; float: left; padding:5px auto;">';
+        str += '<div style="width:60%; float: left; padding:5px auto;" onclick="Random1()">';
         str += '<div style="height: 55px;padding-top:3px;">กิจกรรมลุ้นโชค ชั้นที่ 1<br><font color="#ffff00">ลุ้นรับเงินสดมูลค่า<br>1,000 - 5,000 บาท</font></div>';
-        str += '<div style="height: 30px;"><div class="btn btn-primary btn-lg" onclick="Random1()" id="btn-random1" style="background:#f68b1f;border: solid #fff 2px;">คลิกลุ้นโชคครั้งที่ 1</div></div>';
+        str += '<div style="height: 30px;"><div class="btn btn-primary btn-lg" id="btn-random1" style="background:#28a745;border: solid #fff 2px;">คลิกลุ้นโชคครั้งที่ 1</div></div>';
         str += '</div></div><div class="clr"></div>';      
       }
         //if(doc.data().Check2!=0 && doc.data().Reward2!="") {
@@ -64,9 +64,9 @@ function CheckData() {
         str += '<div class="btn-menu">';
         str += '<div style="width:40%; float: left;text-align:center;"><img src="./img/Seamasi-07.png" style="width:110px;padding-top:5px;"></div>';
         //str += '<div style="width:40%; float: left;text-align:center;"><img src="./img/icons-giftbox.png" style="width:100px;"></div>';
-        str += '<div style="width:60%; float: left; padding:5px auto;">';
+        str += '<div style="width:60%; float: left; padding:5px auto;" onclick="Random2()">';
         str += '<div style="height: 55px;padding-top:3px;">กิจกรรมลุ้นโชค ชั้นที่ 2<br><font color="#ffff00">ลุ้นรับของรางวัลใหญ่<br>3 รางวัล</font></div>';
-        str += '<div style="height: 30px;"><div class="btn btn-primary btn-lg" onclick="Random2()" id="btn-random1" style="background:#f68b1f;border: solid #fff 2px;">คลิกลุ้นโชคครั้งที่ 2</div></div></div></div><div class="clr"></div>';
+        str += '<div style="height: 30px;"><div class="btn btn-primary btn-lg" id="btn-random1" style="background:#28a745;border: solid #fff 2px;">คลิกลุ้นโชคครั้งที่ 2</div></div></div></div><div class="clr"></div>';
       }
     });
     $("#MyRewards").html(str);  

@@ -39,28 +39,19 @@ console.log("End="+selectedItem);
 if(selectedItem>=0 && selectedItem<4) {
   UpdateData();
 }
-//console.log($randItems[selectedItem]);
 $randItems[selectedItem].addClass('selectedEND');
-//alert("sss");
-//console.log(CheckRank[iRank]);
 iRank++;
-//console.log(selectedItem);
-//console.log($randItems[selectedItem].text());
     randStat[selectedItem]++;
-    //GetShowTeam($randItems[selectedItem].text());
     $("#randResult").text($randItems[selectedItem].text());
-    //$("#randResult").text("พิทยา ตรีรัตน์");OpenGoHome
     $("#randResult-modal").modal();
     document.getElementById('OpenClick').style.display='none';
     document.getElementById('OpenGoHome').style.display='block';
     $('#startRand').prop('disabled', false);
-    //document.getElementById('OpenButtom').style.display='none';
   }
 }
 
 
 function startRand () {
-  //document.getElementById('OpenButtom').style.display='none';
   speed = 12;
   $('#startRand').prop('disabled', true);
   nextRand();
@@ -73,6 +64,7 @@ function removeSelectedItem() {
   $('#randResult-modal').modal('hide');
 }
 
+
 $(document).ready(function() {
   if(sessionStorage.getItem("EmpNumber_HR")==null) { location.href = "index.html"; }
   Connect_DB();
@@ -80,7 +72,6 @@ $(document).ready(function() {
   dbRSOCMember = firebase.firestore().collection("RSOC_Member");
   var $randItemContainer = $('.rand-item-container'),
       $btn = $('#startRand');
-  
   randItems.forEach(function (randItem) {
     var $randItem = $('<div/>',{
       'class': 'col-sm-2 col-xs-4 rand-item'
@@ -95,8 +86,8 @@ $(document).ready(function() {
     removeSelectedItem();
     startRand();
   });
-  //alert("Click");
 });
+
 
 var average = function(a) {
   var r = {mean: 0, variance: 0, deviation: 0}, t = a.length;
@@ -106,40 +97,6 @@ var average = function(a) {
   r.deviation = Math.sqrt(r.variance = s / t);
   return r;
 }
-
-/*
-function CheckTeam() {
-  alert("ok");
-}
-
-function GetShowTeam(n) {
-  str = "";
-  str += '<div style="width:100%">';
-  dbRSOCMember.where('NameFruit','==', n)
-  //.limit(1)
-  .get().then((snapshot)=> {
-    snapshot.forEach(doc=> {
-      str += '<div style="margin-top:15px;float: left; width:50%; border-right:2px #fff solid; height:230px;">';
-      str += '<div style="text-align: center;padding:8px; margin-top:15px;"><img src="'+ doc.data().LinePicture +'" class="profile-team1" onerror="javascript:imgError(this)"></div>';
-      str += '<div><b><font color="#0056ff">'+ doc.data().EmpName +'</font></b>';
-      if(doc.data().EmpBranch!="") {
-        str += '<br>'+ doc.data().EmpBranch;
-      }
-      str += '<br>'+ doc.data().EmpZone +'<br>'+ doc.data().EmpRH +'</div>';
-      str += '</div>';
-    }); 
-    str += '</div><div class="clr"></div>';
-    $("#DisplayYourTeam").html(str);  
-  });
-}
-
-function imgError(image,id) {
-    image.onerror = "";
-    image.src = "./box.jpg";
-    return true;
-}
-*/
-
 
 
 var xCheck1 = 0;
@@ -155,6 +112,7 @@ function CheckData() {
   .get().then((snapshot)=> {
     snapshot.forEach(doc=> {
       EidRandom1 = doc.id;
+      xTypeReward = doc.data().TypeReward;
       if(doc.data().TypeReward=="3,000") {
         i = 1;
       } else if(doc.data().TypeReward=="4,000") { 
@@ -164,7 +122,6 @@ function CheckData() {
       } else {
         i = 0;
       }
-      //console.log(i);
       CheckRank = [i];
       EmpNumber = doc.id;
       xCheck1 = doc.data().Check1;
@@ -173,7 +130,6 @@ function CheckData() {
       $("#MyProfile").html(str1);  
       str += '<div style="margin-top:30px; color:#fff; font-size:13px;">ผลการสุ่มรางวัลของคุณ<br><br>คุณได้รับรางวัลเงินสด<br><b>'+ doc.data().Reward1 +' บาท</b></div>';
       $("#MyRewards").html(str);  
-      //document.getElementById('OpenButtom').style.display='block';
     });
     document.getElementById('loading').style.display='none';
     if(xCheck1==0) {
@@ -186,18 +142,34 @@ function CheckData() {
 
 
 function UpdateData() {
+  NewDate();
+  var TimeStampDate = Math.round(Date.now() / 1000);
   var xtext = "";
   if(randItems[CheckRank]==0) {
     xtext = "1,000";
   } else {
     xtext = randItems[CheckRank];
   }
-  //console.log("Update="+EidRandom1+"==="+randItems[CheckRank]);
   dbStaff.doc(EidRandom1).update({
     Check1 : 1,
-    //RefID : sessionStorage.getItem("StaffRefID"),
     Reward1 : xtext,
     DateReward1 : dateString
+  });
+
+  dbLogRandom.add({
+    Game : "Game1",
+    LineID : sessionStorage.getItem("LineID"),
+    LineName : sessionStorage.getItem("LineName"),
+    LinePicture : sessionStorage.getItem("LinePicture"),
+    EmpNumber : sessionStorage.getItem("EmpNumber_HR"),
+    EmpName : sessionStorage.getItem("EmpName_HR"),
+    TypeRandom : sessionStorage.getItem("TypeRandom_HR"),
+    Reward1 : xtext,
+    Reward1Check : xTypeReward,
+    Reward2 : "",
+    Reward2Check : "",
+    DateConsend : dateString,
+    TimeStamp : TimeStampDate
   });
 }
 

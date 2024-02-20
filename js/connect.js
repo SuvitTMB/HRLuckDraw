@@ -15,6 +15,8 @@ function Connect_DB() {
   firebase.initializeApp(firebaseConfig);
   dbStaff = firebase.firestore().collection("OutsourcesStaff");
   dbReward = firebase.firestore().collection("CardRandom");
+  dbLogCheckin = firebase.firestore().collection("LogCheckin");
+  dbLogRandom = firebase.firestore().collection("LogRandom");
 }
 
 

@@ -71,61 +71,22 @@ function CheckData() {
         CheckFoundData = 1;
         EidProfile = doc.id;
         sessionStorage.setItem("StaffRefID", doc.id);
-        //CheckRegister = doc.data().DateRegister;
-        //CheckLineID = doc.data().LineID;
-        //sessionStorage.setItem("EmpNumber_HR", doc.data().EmpNumber);
         document.getElementById('loading').style.display='none';
         if(doc.data().Confirm==1) {
           sessionStorage.setItem("EmpNumber_HR", doc.data().EmpNumber);
           sessionStorage.setItem("EmpName_HR", doc.data().EmpName);
           sessionStorage.setItem("TypeRandom_HR", doc.data().TypeRandom);
           sessionStorage.setItem("DateConsend", doc.data().DateConsend);
-
           document.getElementById('DoneRegister').style.display='block';
+          AddLogCheckin(1);
         } else {
-          //sessionStorage.setItem("EmpNumber_HR", doc.data().EmpNumber);
-          //sessionStorage.setItem("EmpName_HR", doc.data().EmpName);
-          //sessionStorage.setItem("TypeRandom_HR", doc.data().TypeRandom);
           document.getElementById('DoneRegister').style.display='block';
-          //CheckProfile();
-          //document.getElementById('DoneRegister').style.display='block';
-
-          //alert("คุณยังไม่ได้");
-          //document.getElementById('DoneRegister').style.display='block';
-
-
-          //EditConsend();
-
-
-          //CheckProfile();
-          //document.getElementById('NotRegister').style.display='block';
         }
-        //sessionStorage.setItem("EmpName_Moon2023", doc.data().empName);
-        //sessionStorage.setItem("EmpRefID", doc.id);
-        //sessionStorage.setItem("EmpPhone", doc.data().empPhone);
-        //sessionStorage.setItem("EmpAddress", doc.data().empAddress);
-        //dbProfile.doc(sessionStorage.getItem("EmpRefID")).update({
-        //  linename : sessionStorage.getItem("LineName"),
-        //  empPicture : sessionStorage.getItem("LinePicture")
-        //});
-        //document.getElementById('loading').style.display='none';
-        //document.getElementById('OldSurvey').style.display='block';
-        //CheckRewards();
-      //} else if(doc.data().statusconfirm==2) {
-      //CheckRewards();
-      //document.getElementById('loading').style.display='none';
-      //document.getElementById('OldSurvey').style.display='block';
     });
     if(CheckFoundData==0) {
         document.getElementById('loading').style.display='none';
         document.getElementById('NotRegister').style.display='block';
     }
-    //if(CheckFoundData==0) {
-    //  document.getElementById('loading').style.display='none';
-    //  document.getElementById('NoService').style.display='none';
-    //  document.getElementById('NewMember').style.display='block';
-      //location.href = "https://liff.line.me/1655966947-KxrAqdyp"; 
-    //}
   });
 }
 
@@ -150,55 +111,45 @@ function CheckProfile() {
         sessionStorage.setItem("TypeRandom_HR", doc.data().TypeRandom);
         sessionStorage.setItem("StaffRefID", doc.id);
 
-        str += '<div style="margin-top:35px;"><img src="'+ sessionStorage.getItem("LinePicture") +'" class="add-profile"></div>';
-        //str += '<div class="NameLine">'+ sessionStorage.getItem("LineName")+'</div>';
-        str += '<div style="font-weight:600; color:#0056ff; font-size:14px;margin-top:12px;">'+ doc.data().EmpName +'</div>';
-        str += '<div class="btn-t33" style="margin-top:20px;">บันทึกข้อตกลงการเข้าร่วมกิจกรรม<br><b>อั่งเปาโชคสองชั้น กับ ทีทีบี</b></div>';
-        str += '<div style="font-size:13px; text-align:left;margin-top:15px;">โครงการพิเศษเพื่อมอบรางวัลให้แก่พนักงาน Outsource ที่ถือเป็นเพื่อนร่วมทางชาวทีทีบี ผู้ให้การสนับสนุนทำงาน ทำให้พนักงานทีทีบี Make REAL Change สามารถทำงานเพื่อสร้าง Financial Well-being หรือ ชีวิตทางการเงินที่ดีขึ้นให้กับลูกค้าและคนไทยทั้งประเทศ</div>';
-        str += '<div class="section-title"><center><div style="text-align: left;margin-top:20px;width:100%;max-width: 500px;">';
-        str += '<div style="width:100%; float: left;font-size: 13px; color:#000;line-height: 1.3;">';
-          str += '<div style="font-size:13px;><b><u>คุณสมบัติผู้เข้าร่วมโครงการ</u></b></div>';
-          str += '<div style="font-size:13px;><ul><li>พนักงาน Outsource ที่มีอายุงานครบ 1 ปีบริบูรณ์ขึ้นไป ณ วันที่ 31 ธันวาคม 2566 (เข้างานก่อนหรือในวันที่ 1 มกราคม 2566)</li><li>มีสถานะเป็นพนักงาน Outsource ของทีทีบี ณ วันที่มอบรางวัล</li></ul></div>';
-          str += '<div style="font-size:13px;><b><u>อั่งเปาโชคสองชั้น</u></b></div>';
-          str += '<div style="font-size:13px;"><ul><li>โชคชั้นที่ 1  ลุ้นรับเงินสดมูลค่า 1,000 - 5,000 บาท</li><li>โชคชั้นที่ 2  ลุ้นรับของรางวัลใหญ่ 3 รางวัล<br>+ รางวัลที่ 1 จักรยานยนต์ Honda Scoopy Max Club12 จำนวน 1 รางวัล<br>+ รางวัลที่ 2 ทองคำหนัก 1 บาท จำนวน 1 รางวัล<br>+ รางวัลที่ 3   โทรศัพท์มือถือ จำนวน 1 รางวัล</li></ul></div>';
-        str += '</div>';
 
-        str += '<div style="width:100%; float: left;font-size: 13px; color:#000;line-height: 1.3;"><b><u>อั่งเปาโชคสองชั้น</u></b><br>ผู้เข้าร่วมกิจกรรมสามารถทำการเลือก "คลิกสุ่มรับโชค" ระบบจะทำการสุ่มเลือกของรางวัล ซึ่งจะมีทั้งผู้ที่ได้รับรางวัล และไม่ได้รับรางวัล<br><br>';
-        str += '<u><b>การสุ่มเลือก</b></u><br>ขึ้นอยู่กับการสุ่มเลือกรางวัลจากระบบ<br><br><b><u>ระยะเวลาการร่วมกิจกรรม</u></b><br>ตั้งแต่วันนี้ ถึง วันที่ 18 กุมภาพันธ์ 2567 หรือ<br>จนกว่าฉลากในการสุ่มเลือกจะหมด';
-        str += '<br><br><b><u>ของรางวัลสำหรับการสุ่มเลือก</u></b><br>- บัตรกำนัล The Pizza มูลค่า 100 บาท จำนวน 20 รางวัล<br>- บัตรกำนัล Lotus มูลค่า 100 บาท จำนวน 20 รางวัล<br>';
-        str += '- บัตรกำนัล Starbuck มูลค่า 200 บาท จำนวน 10 รางวัล</div></div></center></div>';
-        str += '<div class="row-font clr"><div class="header-font">ยืนยันการทำรายการของคุณ<br>(ทำเครื่องหมายที่ปุ่ม Checkbox)</div>';
+        str += '<div style="margin-top:35px;"><img src="'+ sessionStorage.getItem("LinePicture") +'" class="add-profile"></div>';
+        str += '<div style="font-weight:600; color:#ffff00; font-size:14px;margin-top:12px;">'+ doc.data().EmpName +'</div>';
+        str += '<div class="btn-t33" style="margin-top:20px;">บันทึกข้อตกลงการเข้าร่วมกิจกรรม<br><b>อั่งเปาโชคสองชั้น กับ ทีทีบี</b></div>';
+        //str += '<div style="margin-top:20px; text-align:left; font-size:13px; color:#0056ff;"><b>เรียน คุณ'+ doc.data().EmpName +'</b></div>';
+        str += '<div style="font-size:13px; text-align:left;margin-top:15px;"><b><u>เกี่ยวกับโครงการอั่งเปาโชคสองชั้น กับ ทีทีบี</u></b><br>โครงการพิเศษเพื่อมองรางวัลให้แก่พนักงานสัญญาจ้างภายนอก ซึ่งถือเป็นเพื่อนร่วมทางของพวกเราชาวทีทีบี ที่ช่วยสนับสนุนให้พวกเราทำงานได้อย่างราบรื่นและประสบความสำเร็จ</div>';
+        //str += '<div class="section-title"><center><div style="text-align: left;margin-top:20px;width:100%;max-width: 500px;">';
+        //str += '<div style="width:100%; float: left;font-size: 13px; color:#fff;line-height: 1.3;">';
+        str += '<div style="text-align:left; font-size:13px;">';
+        str += '<div style="font-size:13px; margin-top:20px;"><b><u>คุณสมบัติผู้เข้าร่วมโครงการ</u></b><br><ul><li>พนักงานสัญญาจ้างภายนอก ที่มีอายุงานครบ 1 ปีต่อเนื่องขึ้นไป ณ วันที่ 31 ธันวาคม 2566  (เข้างานก่อนหรือในวันที่ 1 มกราคม 2566)</li><li>มีสถานะเป็น พนักงานสัญญาจ้างภายนอก ของทีทีบี ณ วันที่มอบรางวัล</li></ul></div>';
+
+        str += '<div style="font-size:13px;"><br><b><u>วัตถุประสงค์โครงการ</u></b><br>โครงการ อั่งเปาโชค 2 ชั้นจากทีทีบีจัดทำขึ้น เพื่อให้สิทธิแก่ พนักงานสัญญาจ้างภายนอก ของทีทีบี ได้ร่วมในการสุ่มรับรางวัล ตามหลักเกณฑ์และเงื่อนไขที่ธนาคารกำหนด</div>';
+        str += '<div style="font-size:13px;><br><br><b><u>อั่งเปาโชคสองชั้น</u></b></div>';
+        str += '<div style="font-size:13px;"><ul><li><u>โชคชั้นที่ 1</u> ลุ้นรับเงินสดมูลค่า 1,000 - 5,000 บาท</li><li><u>โชคชั้นที่ 2</u> ลุ้นรับของรางวัลใหญ่ 3 รางวัล<br>+ รางวัลที่ 1 จักรยานยนต์ Honda Scoopy Max Club12 จำนวน 1 รางวัล<br>+ รางวัลที่ 2 ทองคำหนัก 1 บาท จำนวน 1 รางวัล<br>+ รางวัลที่ 3   โทรศัพท์มือถือ จำนวน 1 รางวัล</li></ul></div>';
+
+        str += '<div style="width:100%; float: left;font-size: 13px; color:#fff;line-height: 1.3;"><br><b><u>อั่งเปาโชคสองชั้น</u></b><br>ผู้เข้าร่วมกิจกรรมสามารถทำการเลือก "คลิกสุ่มรับโชค" ระบบจะทำการสุ่มเลือกของรางวัล ซึ่งจะมีทั้งผู้ที่ได้รับรางวัล และไม่ได้รับรางวัล<br><br>';
+        str += '<br><u><b>การสุ่มเลือก</b></u><br>ขึ้นอยู่กับการสุ่มเลือกรางวัลจากระบบ';
+        str += '<br><br><b><u>ระยะเวลาการร่วมกิจกรรม</u></b><br>ระหว่างวันที่ 23 ก.พ. 67 เวลา 9:00 น. 26 ก.พ. 2567 เวลา 17.00 น. เท่านั้น';
+        str += '<br><br><b><u>การมอบรางวัล</u></b><ul style="margin-left:-20px;"><li>สำหรับโชคชั้นที่ 1  ท่านจะได้รับ<u>รางวัลเงินสด</u> เข้าบัญชีที่ท่านรับเงินเดือน ในวันที่ 29 กุมภาพันธ์ 2567 (จ่าย 1 รอบ)</li><li>สำหรับโชคชั้นที่ 2 ทรัพยากรบุคคลจะติดต่อผู้โชคดีที่ได้<u>รับรางวัลใหญ่ 3 รางวัล</u> ภายใน 8 มีนาคม 2567</li></ul>';
+
+        str += '<div class="row-font clr"><div class="header-font" style="color:#ffff00;">ยืนยันการทำรายการของคุณ<br>(ทำเครื่องหมายที่ปุ่ม Checkbox)</div>';
         str += '<div class="input-group"><input type="checkbox" id="txtEmpAccept" onclick="CheckButtomClick()"/>';
         str += '<label for="txtEmpAccept"><ul style="font-size: 13px; text-align:left;">';
-        str += '<li>ผู้ขออนุญาตใช้ LINE Retail Society จะต้องเป็นพนักงานของ  ttb ภายใต้สังกัด CRBO เท่านั้น</li>';
-        str += '<li>ผู้ขออนุญาตใช้งานจะต้องไม่เผยแพร่ข้อมูลข่าวสารนี้ต่อบุคคลภายนอก ttb โดยเด็ดขาด</li>';
-        str += '<li>ผู้ดูแลระบบ สามารถทำการยกเลิกการใช้งานได้โดยไม่มีเงื่อนไข</li></ul></label></div></div>';
-        str += '<div id="SubmitApp" class="btn btn-primary btn-lg disabledbutton" onclick="ConfirmRegister()" style="margin-top:10px;background:#28a745; border:2px solid #fff; font-size:13px; margin-right:5px;">ยืนยันลงทะเบียน</div>';
-        str += '<div id="overlay" class="btn btn-primary btn-lg" onclick="CloseAll()" style="margin-top:10px; background:#6c757d; border:2px solid #fff; font-size:13px;">ยกเลิกรายการ</div>';
+        str += '<li>ข้าพเจ้ารับทราบและตกลงยินยอมให้ธนาคารเก็บรวบรวม ใช้ หรือเปิดเผยข้อมูลส่วนบุคคลของข้าพเจ้าที่ได้ให้ไว้ เพื่อดำเนินการตามวัตถุประสงค์ของโครงการ อั่งเปาโชค 2 ชั้นจากทีทีบี และยอมรับหลักเกณฑ์ที่ธนาคารกำหนดไว้ทั้งหมด</li>';
+        str += '<li>ธนาคารสงวนสิทธิ์ในการกำหนด เปลี่ยนแปลง หรือยกเลิกหลักเกณฑ์ใด ๆ ตามความเหมาะสม และการตัดสินใจของธนาคารถือเป็นที่สุด</li></ul>';
+        str += '<div id="SubmitApp" class="btn btn-primary btn-lg disabledbutton" onclick="ConfirmRegister()" style="margin-left:20px;margin-top:25px;background:#28a745; border:2px solid #fff; font-size:13px; margin-right:5px;">ยืนยันลงทะเบียน</div>';
+        str += '<div id="overlay" class="btn btn-primary btn-lg" onclick="CloseAll()" style="margin-top:25px; background:#6c757d; border:2px solid #fff; font-size:13px;">ยกเลิกรายการ</div>';
+        
+        str += '</div>';
         $("#MyEmpNumber").html(str);  
       } else {
         str += '<div style="margin-top:35px;"><img src="'+ sessionStorage.getItem("LinePicture") +'" class="add-profile"></div>';
-        str += '<div class="NameLine">'+ sessionStorage.getItem("LineName")+'</div>';
-        str += '<div style="margin-top:20px; font-size:13px; padding:20px 25px; max-width:350px; width:95%; background:#ff0000; color:#fff; border-radius: 10px;">';
+        str += '<div class="NameLine" style="color:#ffff00;">'+ sessionStorage.getItem("LineName")+'</div>';
+        str += '<div style="margin-top:20px; font-size:13px; padding:20px 10px; max-width:350px; width:100%; color:#fff; border-radius: 10px;">';
         str += '<div><img src="./img/icons-warning.png" style="width:80px;"></div>';
         str += '<div style="margin-top:12px;">เราตรวจสอบแล้วพบว่า<br>รหัสผ่านนี้มีผู้นำมาเปิดใช้งานแล้ว<br>กรุณากรอกรหัสใหม่อีกครั้ง</div>';
         str += '<div id="overlay" class="btn-t22" onclick="CloseAll()" style="margin-top:1จpx; background:#6c757d; border:2px solid #fff; font-size:13px;>ปิดหน้าต่างนี้</div>';
         $("#MyEmpNumber").html(str);  
       }
-      //xEmpType = doc.data().EmpType;
-      //CheckRegister = doc.data().DateRegister;
-      //CheckLineID = doc.data().LineID;
-      //alert(CheckRegister);
-
-      //alert("พบข้อมูลของคุณแล้ว ทำการยืนยันสิทธิ์");
-      //$("#MyEmpNumber").html(str);  
-
-      //sessionStorage.setItem("EmpNumber", doc.data().EmpNumber);
-      //sessionStorage.setItem("EmpName", doc.data().EmpName);
-      //sessionStorage.setItem("EmpGroup", doc.data().EmpBranch);
-      //sessionStorage.setItem("TimeRegister", doc.data().TimeRegister);
-      //sessionStorage.setItem("EmpMember", 1);
-      //sessionStorage.setItem("EmpSize", doc.data().EmpSize);
     });
     if(CheckFountEmpNumber==0) {
       str += '<div style="margin-top:35px;"><img src="'+ sessionStorage.getItem("LinePicture") +'" class="add-profile"></div>';
@@ -227,11 +178,11 @@ function ConfirmRegister() {
     //sessionStorage.setItem("EmpNumber", profile.displayName);
     //str += '<div style="margin-top:35px;"><img src="'+ sessionStorage.getItem("LinePicture") +'" class="add-profile"></div>';
     //str += '<div class="NameLine">'+ sessionStorage.getItem("LineName")+'</div>';
-    str += '<div style="margin-top:20px; font-size:13px; padding:20px 15px; max-width:350px; width:95%; background:#0056ff; color:#fff; border-radius: 10px;">';
+    str += '<div style="margin-top:20px; font-size:13px; padding:20px 5px; max-width:350px; width:100%; background:#0056ff; color:#fff; border-radius: 10px;">';
     str += '<div style="margin-top:15px;"><img src="'+ sessionStorage.getItem("LinePicture") +'" class="add-profile"></div>';
-    str += '<div class="NameLine">'+ sessionStorage.getItem("EmpName_HR")+'</div>';
+    str += '<div class="NameLine" style="color:#ffff00;">'+ sessionStorage.getItem("EmpName_HR")+'</div>';
     //str += '<div><img src="./img/icons-confirm.png" style="width:80px;"></div>';
-    str += '<div style="margin-top:20px;text-align:left; "><b>ทีทีบี</b> ขอขอบคุณเพื่อนร่วมทาง ที่ช่วยสนับสนุนการทำงานให้เราสามารถ <b>Make REAL Change</b> เพื่อสร้างการมีชีวิตทางการเงินที่ดีให้กับลูกค้าและคนไทยทั้งประเทศเป็นกรณีพิเศษ<br><br><font color="#ffff00"><b>คุณ'+ sessionStorage.getItem("EmpName_HR")+'</b> ได้รับสิทธิจับฉลากอั่งเปาโชค 2 ชั้น อย่างละ 1 สิทธิ ระหว่างวันที่ 23 ก.พ. 67 เวลา 9:00 น. 26 ก.พ. 2567 เวลา 12.00 น. เท่านั้น</font><br><br>ธนาคารสงวนสิทธิ์ในการกำหนด เปลี่ยนแปลง หรือยกเลิกหลักเกณฑ์ใด ๆ ตามความเหมาะสม และการตัดสินใจของธนาคารถือเป็นที่สุด</div>';
+    str += '<div style="margin-top:20px;text-align:left;"><font color="#ffff00"><b>คุณ'+ sessionStorage.getItem("EmpName_HR")+'</b> ได้รับสิทธิจับฉลากอั่งเปาโชค 2 ชั้น อย่างละ 1 สิทธิ ระหว่างวันที่ 23 ก.พ. 67 เวลา 9:00 น. 26 ก.พ. 2567 เวลา 17.00 น. เท่านั้น</font><br><br>ธนาคารสงวนสิทธิ์ในการกำหนด เปลี่ยนแปลง หรือยกเลิกหลักเกณฑ์ใด ๆ ตามความเหมาะสม และการตัดสินใจของธนาคารถือเป็นที่สุด</div>';
     str += '<div id="loading2" style="display:block;"><img src="./img/loading1.gif" style="width:50px;margin-top:10px;"></div>';
     str += '<div id="overlay" class="btn btn-primary btn-lg" onclick="GotoHome()" style="margin-top:20px; width:200px; font-size: 13px; background:#28a745; border:2px solid #fff;display:none;">รับทราบ ---> ไปลุ้นโชคกัน</div>';
     $("#MyEmpNumber").html(str);  
@@ -241,8 +192,7 @@ function ConfirmRegister() {
 }
 
 function UpdateData() {
-  //alert("Line 244");
-  //console.log("EidEmpNumber="+EidEmpNumber);
+  NewDate();
   dbStaff.doc(EidEmpNumber).update({
     LineID : sessionStorage.getItem("LineID"),
     LineName : sessionStorage.getItem("LineName"),
@@ -250,6 +200,7 @@ function UpdateData() {
     Confirm : 1,
     DateConsend : dateString
   });
+  AddLogCheckin(0);
   timerId = setInterval(GotoLogin, 4000); 
 }
 
@@ -264,11 +215,7 @@ function GotoLogin() {
   clearTimeout(timerId);
   document.getElementById('loading2').style.display='none';
   document.getElementById('overlay').style.display='block';
-
 }
-
-
-
 
 
 
@@ -287,7 +234,6 @@ function edValueKeyPress()
     var xCheck = 8;
     var edValue = document.getElementById("txtEmpNumber");
     var s = edValue.value;
-
     var lblValue = document.getElementById("lblValue");
     //lblValue.innerText = "ต้องคีย์อีก : "+s+" --- "+s.length;
     if(s.length>=8) {
@@ -297,9 +243,6 @@ function edValueKeyPress()
       lblValue.innerText = "ต้องคีย์อีก : "+(xCheck-s.length)+ " ตัวอักษร";
       document.getElementById('KeyRegister').style.display='none';
     }
-
-    //var s = $("#edValue").val();
-    //$("#lblValue").text(s);    
 }
 
 
@@ -321,6 +264,41 @@ function CheckRewards() {
     }
   });
 }
+
+
+function AddLogCheckin(x) {
+  NewDate();
+  var TimeStampDate = Math.round(Date.now() / 1000);
+  if(x==1) {
+    dbLogCheckin.add({
+      LineID : sessionStorage.getItem("LineID"),
+      LineName : sessionStorage.getItem("LineName"),
+      LinePicture : sessionStorage.getItem("LinePicture"),
+      StatusUser : "Old",
+      EmpIDCard : document.getElementById("txtEmpNumber").value,
+      EmpNumber : sessionStorage.getItem("EmpNumber_HR"),
+      EmpName : sessionStorage.getItem("EmpName_HR"),
+      TypeRandom : sessionStorage.getItem("TypeRandom_HR"),
+      DateConsend : dateString,
+      TimeStamp : TimeStampDate
+    });
+  } else {
+    dbLogCheckin.add({
+      LineID : sessionStorage.getItem("LineID"),
+      LineName : sessionStorage.getItem("LineName"),
+      LinePicture : sessionStorage.getItem("LinePicture"),
+      StatusUser : "New",
+      EmpIDCard : document.getElementById("txtEmpNumber").value,
+      EmpNumber : sessionStorage.getItem("EmpNumber_HR"),
+      EmpName : sessionStorage.getItem("EmpName_HR"),
+      TypeRandom : sessionStorage.getItem("TypeRandom_HR"),
+      DateConsend : dateString,
+      TimeStamp : TimeStampDate
+    });
+  }
+}
+
+
 
 /*
 
