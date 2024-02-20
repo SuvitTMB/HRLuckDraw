@@ -462,6 +462,6 @@ abbr:hover::after {
 
 .boxtext {
   text-align: center;font-size: 14px; color:#000; border:1px solid #f1f1f1; 
-  width:80%; padding:10px;   background: #f1f1f1; border-radius: 8px; opacity: .7;
+  width:90%; padding:10px;   background: #f1f1f1; border-radius: 8px; opacity: .7;
   margin-top:5px;
 }
