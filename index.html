@@ -171,8 +171,8 @@
           <form id="test" class="needs-validation" novalidate>
             <div class="form-row">
               <div class="input_field" style="max-width:400px; width:60% !important; margin:auto;"> 
-                <input required type="text" class="form-control" id="txtEmpNumber" placeholder="กรอกรหัสผ่านของคุณ" onKeyPress="edValueKeyPress()" onKeyUp="edValueKeyPress()" style="text-align:center; font-size: 15px; font-weight: 400; padding:15px 20px !important;"/>
-                <div><span id="lblValue" style="margin-top:10px; color:#fff; font-size:12px">ต้องคีย์อย่างน้อย 8 ตัวอักษร</span></div>
+                <input required type="password" class="form-control" id="txtEmpNumber" placeholder="กรอกเลขบัตรประชาชน 13 หลัก" onKeyPress="edValueKeyPress()" onKeyUp="edValueKeyPress()" style="text-align:center; font-size: 15px; font-weight: 400; padding:15px 20px !important;"/>
+                <div><span id="lblValue" style="margin-top:10px; color:#fff; font-size:12px">กรุณากรอกเลขบัตรประชาชน 13 หลัก</span></div>
               </div>
             </div>
             <!--<div class="btn-t1" onclick="CheckProfile()" type="submit" id="KeyRegister" style="margin-top:20px;">คลิกเพื่อลงทะเบียน</div>-->
@@ -182,8 +182,8 @@
       </div>
 
 
-      <div id="DoneRegister" style="display: none;margin-top:15px;">
-        <div class="btn btn-primary btn-lg" onclick="window.location.href='home.html';" style="background: #0056ff; border:1px solid #fff; font-size:13px; padding:10px 40px; line-height: 1.3; font-weight: 600;">คลิก ลุ้นโชค<br>อั่งเปาโชค 2 ชั้น</div>
+      <div id="DoneRegister" style="display: none;margin-top:25px;">
+        <div class="btn btn-primary btn-lg" onclick="window.location.href='home.html';" style="background: #0056ff; border:1px solid #fff; font-size:13px; padding:10px 40px; line-height: 1.3; font-weight: 600;">คลิกเพื่อเข้าสู่ กิจกรรม<br><font color="#ffff00">อั่งเปาโชคสองชั้น กับ ทีทีบี</font></div>
         <div class="clr"></div>
       </div>
 
@@ -215,13 +215,13 @@
 
 
   <div id="id01" class="w3-modal w3-animate-opacity">
-    <div class="w3-modal-content w3-card-4" style="background: #9cb0d7; border-radius: 10px;">
+    <div class="w3-modal-content w3-card-4" style="background: #0056ff; border-radius: 10px;">
       <div class="w3-container" style="width:100%;margin:auto;min-height: 350px; ">
         <center>
           <div id="loading1" style="margin:100px auto;">
             <div><img src="./img/loading1.gif" style="width:50px;"></div>
           </div>
-          <div id="MyEmpNumber"></div>
+          <div id="MyEmpNumber" style="color:#fff;"></div>
           <div class="clr" style="height:25px;"></div>
         </center>
       </div>
