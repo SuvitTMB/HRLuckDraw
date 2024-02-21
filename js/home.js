@@ -6,10 +6,10 @@ var EidProfile = "";
 $(document).ready(function () {
   if(sessionStorage.getItem("EmpNumber_HR")==null) { location.href = "index.html"; }
 
-  console.log(sessionStorage.getItem("EmpNumber_HR"))
-  console.log(sessionStorage.getItem("EmpName_HR"))
-  console.log(sessionStorage.getItem("TypeRandom_HR"))
-  console.log(sessionStorage.getItem("StaffRefID"))
+  //console.log(sessionStorage.getItem("EmpNumber_HR"))
+  //console.log(sessionStorage.getItem("EmpName_HR"))
+  //console.log(sessionStorage.getItem("TypeRandom_HR"))
+  //console.log(sessionStorage.getItem("StaffRefID"))
 
   Connect_DB();
   CheckData();
@@ -51,13 +51,14 @@ function CheckData() {
         str += '<div style="width:40%; float: left;text-align:center;"><img src="./img/Seamasi-07.png" style="width:110px;padding-top:5px;"></div>';
         //str += '<div style="width:40%; float: left;text-align:center;"><img src="./img/icons-giftbox.png" style="width:100px;"></div>';
         str += '<div style="width:60%; float: left; padding:5px auto;">';
-        if(doc.data().Reward2=="คุณไม่ได้รางวัล") {
-          str += '<div style="height: 50px;padding-top:8px;">กิจกรรมลุ้นโชค ชั้นที่ 2<br>ผลการลุ้นรางวัลของคุณ</div>';
-          str += '<div style="height: 20px; font-size: 15px; font-weight: 600; color:#ffff00;line-height: 1.1;">'+ doc.data().Reward2 +'</div>';
+        if(doc.data().Reward2=="ไม่ได้รางวัล") {
+          str += '<div style="height: 60px;padding-top:8px;">กิจกรรมลุ้นโชค ชั้นที่ 2<br>ผลการลุ้นรางวัลของคุณ</div>';
+          //str += '<div style="height: 20px; font-size: 15px; font-weight: 600; color:#ffff00;line-height: 1.1;">'+ doc.data().Reward2 +'</div>';
+          str += '<div style="height: 20px; font-size: 15px; font-weight: 600; color:#ffff00;line-height: 1.1;">ไม่ได้สิทธิ์ลุ้นรางวัล</div>';
           str += '<div></div></div></div><div class="clr"></div>';
         } else {
-          str += '<div style="height: 50px;padding-top:8px;">กิจกรรมลุ้นโชค ชั้นที่ 2<br>ยินดีด้วยคุณได้รับ</div>';
-          str += '<div style="height: 20px; font-size: 15px; font-weight: 600; color:#ffff00;line-height: 1.1;">'+ doc.data().Reward2 +'</div>';
+          str += '<div style="height: 35px;padding-top:8px;">กิจกรรมลุ้นโชค ชั้นที่ 2</div>';
+          str += '<div style="height: 50px; font-size: 14px; font-weight: 600; color:#ffff00;line-height: 1.1;">คุณได้สิทธิ์ลุ้นรางวัล<br>'+ doc.data().Reward2 +'<br>โปรดรอประกาศจาก HR</div>';
           str += '<div></div></div></div><div class="clr"></div>';
         }
       } else {
@@ -65,7 +66,7 @@ function CheckData() {
         str += '<div style="width:40%; float: left;text-align:center;"><img src="./img/Seamasi-07.png" style="width:110px;padding-top:5px;"></div>';
         //str += '<div style="width:40%; float: left;text-align:center;"><img src="./img/icons-giftbox.png" style="width:100px;"></div>';
         str += '<div style="width:60%; float: left; padding:5px auto;" onclick="Random2()">';
-        str += '<div style="height: 55px;padding-top:3px;">กิจกรรมลุ้นโชค ชั้นที่ 2<br><font color="#ffff00">ลุ้นรับของรางวัลใหญ่<br>3 รางวัล</font></div>';
+        str += '<div style="height: 55px;padding-top:3px;">กิจกรรมลุ้นโชค ชั้นที่ 2<br><font color="#ffff00">ลุ้นรับสิทธิ์เพื่อรับ<br>ของรางวัลใหญ่ 3 รางวัล</font></div>';
         str += '<div style="height: 30px;"><div class="btn btn-primary btn-lg" id="btn-random1" style="background:#28a745;border: solid #fff 2px;">คลิกลุ้นโชคครั้งที่ 2</div></div></div></div><div class="clr"></div>';
       }
     });

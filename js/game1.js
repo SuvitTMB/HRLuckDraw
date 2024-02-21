@@ -168,6 +168,7 @@ function UpdateData() {
     Reward1Check : xTypeReward,
     Reward2 : "",
     Reward2Check : "",
+    RefID : EidRandom1,
     DateConsend : dateString,
     TimeStamp : TimeStampDate
   });

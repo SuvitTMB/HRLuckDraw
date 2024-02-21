@@ -29,6 +29,7 @@ function CheckData() {
   .get().then((snapshot)=> {
     snapshot.forEach(doc=> {
       gcheck = 1;
+      EidRandom2 = doc.id;
       console.log("Found : "+gcheck+" --- "+ doc.data().TypeName+" --- "+ doc.data().giftname );
       document.getElementById('loading').style.display='none';
       document.getElementById('ShowWheel1').style.display='block';
@@ -114,7 +115,7 @@ function SaveReward() {
   var TimeStampDate = Math.round(Date.now() / 1000);
   var str = "";
   var str0 = "";
-
+/*
   dbReward.doc(Eid).update({
     LineID : sessionStorage.getItem("LineID"),
     LineName : sessionStorage.getItem("LineName"),
@@ -145,13 +146,13 @@ function SaveReward() {
     Reward1Check : "",
     Reward2 : NewRewards[2],
     Reward2Check : NewRewards[1],
+    RefID : sessionStorage.getItem("StaffRefID"),
     DateConsend : dateString,
     TimeStamp : TimeStampDate
   });
-
+*/
   console.log("xGroupGift="+NewRewards[2]+"==="+NewRewards[1]);
   if(NewRewards[2]=='ไม่ได้รางวัล' || NewRewards[2]==0) {
-
     str += '<div style="margin:50px auto 0px auto;"><img src="./img/gift-99.png" style="width:220px;"/></div>';
     str += '<center><div class="boxtext"><b>เสียใจด้วย<br>คุณไม่ได้รับโชคชั้นที่ 2 จากเรา</b><br><div style="font-size:11px; margin-top:4px;">'+ dateString +'</div></div></center>';        
     str0 += '<div class="btn-1" style="margin-top:25px; margin-bottom: 15px;">ผลการสุ่มเลือกผู้รับโชค</div>';
@@ -161,11 +162,11 @@ function SaveReward() {
   //} else {
     //str += '<div style="margin:30px auto 0px auto;"><img src="./img/gift-99.png" style="width:260px;"/></div>';
     str += '<div style="margin:10px auto 12px auto;"><center><img src="./img/'+ NewRewards[1] +'.png" style="position: relative; width:95%;right: 0%;"></center></div>';
-    str += '<div class="boxtext" style="margin:20px auto;">ขอแสดงความยินดีกับ<br><b>คุณ'+ sessionStorage.getItem("EmpName_HR") +'</b><br>คุณได้รับรางวัล<br><b>'+ NewRewards[2] +'</b><br><br>ทรัพยากรบุคคล จะทำการตรวจสอบความถูกต้อง และจะติดต่อผู้โชคดีที่ได้รับรางวัล ภายใน 8 มีนาคม 2567<br><div style="font-size:11px;">Date : '+ dateString +'</div></div>';
+    str += '<div class="boxtext" style="margin:20px auto;">ขอแสดงความยินดีกับ<br><b>คุณ'+ sessionStorage.getItem("EmpName_HR") +'</b><br>คุณได้สิทธิ์ลุ้นรางวัล<br><b>'+ NewRewards[2] +'</b><br><br>ทรัพยากรบุคคล จะทำการตรวจสอบความถูกต้อง และประกาศรายชื่อผู้โชคดีที่ได้รับรางวัล ภายใน 8 มีนาคม 2567<br><div style="font-size:11px;">Date : '+ dateString +'</div></div>';
     //str += '<center><div class="boxtext">ยินดีด้วย ... คุณได้รับรางวัล<br><b>'+  NewRewards[2] +'</b><br>ทรัพยากรบุคคล จะทำการตรวจสอบความถูกต้อง และจะติดต่อผู้โชคดีที่ได้รับรางวัลใหญ่ 3 รางวัล ภายใน 8 มีนาคม 2567<br><div style="font-size:11px; margin-top:4px;">'+ dateString +'</div></div></center>';
     str0 += '<div class="btn-1" style="margin-top:25px; margin-bottom: 15px;">ผลการหมุนรางวัล</div>';
     str0 += '<div style="margin:20px auto -10px auto;"><img src="./img/gift-99.gif" style="width:260px;"/></div>';
-    str0 += '<center><div class="boxtext"><b>ยินดีด้วย ... คุณได้รับรางวัล</b><br>กดปิดหน้าต่างเพื่อดูรางวัลของคุณ<br>'+ dateString +'</div></center>';
+    str0 += '<center><div class="boxtext"><b>ยินดีด้วยคุณได้รับสิทธิ์ลุ้นรางวัล</b><br>กดปิดหน้าต่างเพื่อดูรางวัลของคุณ<br>'+ dateString +'</div></center>';
 
   } else {
     str += '<div style="margin:50px auto 0px auto;"><img src="./img/gift-99.png" style="width:220px;"/></div>';
