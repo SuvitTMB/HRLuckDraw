@@ -115,7 +115,7 @@ function SaveReward() {
   var TimeStampDate = Math.round(Date.now() / 1000);
   var str = "";
   var str0 = "";
-/*
+
   dbReward.doc(Eid).update({
     LineID : sessionStorage.getItem("LineID"),
     LineName : sessionStorage.getItem("LineName"),
@@ -150,7 +150,7 @@ function SaveReward() {
     DateConsend : dateString,
     TimeStamp : TimeStampDate
   });
-*/
+
   console.log("xGroupGift="+NewRewards[2]+"==="+NewRewards[1]);
   if(NewRewards[2]=='ไม่ได้รางวัล' || NewRewards[2]==0) {
     str += '<div style="margin:50px auto 0px auto;"><img src="./img/gift-99.png" style="width:220px;"/></div>';
