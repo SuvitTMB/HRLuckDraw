@@ -226,7 +226,7 @@ function edValueKeyPress()
     var s = edValue.value;
     var lblValue = document.getElementById("lblValue");
     //lblValue.innerText = "ต้องคีย์อีก : "+s+" --- "+s.length;
-    if(s.length>=8) {
+    if(s.length>=13) {
       lblValue.innerText = "";
       document.getElementById('KeyRegister').style.display='block';
     } else {
@@ -288,8 +288,6 @@ function AddLogCheckin(x) {
       TimeStamp : TimeStampDate
     });
   }
-  //timerId = setInterval(GotoHome, 2000); 
-
 }
 
 
@@ -314,38 +312,6 @@ function ClickAddLog() {
 }
 
 
-/*
-
-function NewDate() {
-  var today = new Date();
-  var day = today.getDate() + "";
-  var month = (today.getMonth() + 1) + "";
-  var year = today.getFullYear() + "";
-  var hour = today.getHours() + "";
-  var minutes = today.getMinutes() + "";
-  var seconds = today.getSeconds() + "";
-  var ampm = hour >= 12 ? 'PM' : 'AM';
-  day = checkZero(day);
-  month = checkZero(month);
-  year = checkZero(year);
-  hour = checkZero(hour);
-  minutes = checkZero(minutes);
-  seconds = checkZero(seconds);
-  dateString = day + "/" + month + "/" + year + " " + hour + ":" + minutes + ":" + seconds +" "+ ampm;
-}
-
-
-function checkZero(data){
-  if(data.length == 1){
-    data = "0" + data;
-  }
-  return data;
-}
-
-function ClickBox() {
-  document.getElementById('id01').style.display='block';
-}
-*/
 function CloseAll() {
   var str = "";
   $("#MyEmpNumber").html(str);  
