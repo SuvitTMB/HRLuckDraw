@@ -1,10 +1,20 @@
 var EidProfile = "";
 
 $(document).ready(function () {
-  if(sessionStorage.getItem("EmpNumber_HR")==null) { location.href = "index.html"; }
+  //if(sessionStorage.getItem("EmpNumber_HR")==null) { location.href = "index.html"; }
+
+  var str = "";
+  var sLineID = "Ua6b6bf745bd9bfd01a180de1a05c23b3";
+  var sLineName = "Website";
+  var sLinePicture = "https://profile.line-scdn.net/0hoLlg-mNNMGNRHiaTpMdPNG1bPg4mMDYrKX8qVnIYOgYpe3QwbCp2AXVKaVN_fnMzOC16V3NMagF8";
+  sessionStorage.setItem("LineID", sLineID);
+  sessionStorage.setItem("LineName", sLineName);
+  sessionStorage.setItem("LinePicture", sLinePicture);
+
   Connect_DB();
   CheckData();
 });
+
 
 function CheckData() {
   var str = "";
