@@ -14,6 +14,9 @@ function CheckData() {
   .where('LineID','==',sessionStorage.getItem("LineID"))
   .get().then((snapshot)=> {
     snapshot.forEach(doc=> {
+      if(doc.data().LineID!=sessionStorage.getItem("LineID")) {
+        GotoHome();
+      }
       EidProfile = doc.id;
       //str += '<div><img src="'+ doc.data().LinePicture +'" class="add-profile"></div>';
       //str += '<div class="NameLine">'+ doc.data().LineName+'</div>';
@@ -68,6 +71,9 @@ function CheckData() {
 }
 
 
+function GotoHome() {
+  location.href = "index.html";
+}
 function Random1() {
   location.href = "game1.html";
 }
