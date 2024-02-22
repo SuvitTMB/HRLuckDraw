@@ -15,7 +15,7 @@ function CheckData() {
   .get().then((snapshot)=> {
     snapshot.forEach(doc=> {
       if(doc.data().LineID!=sessionStorage.getItem("LineID")) {
-        //alert("ไม่เท่ากัน")
+        alert("ไม่เท่ากัน")
         GotoHome();
       }
       EidProfile = doc.id;
@@ -64,12 +64,12 @@ function CheckData() {
         str += '<div style="height: 30px;"><div class="btn btn-primary btn-lg" id="btn-random1" style="background:#28a745;border: solid #fff 2px;">คลิกลุ้นโชคครั้งที่ 2</div></div></div></div><div class="clr"></div>';
       }
     });
+    if(EidProfile=="") {
+      alert("กรุณาลงทะเบียนใหม่อีกครั้ง");
+       GotoHome();
+    }
     $("#MyRewards").html(str);  
   });
-  if(EidProfile=="") {
-    alert("กรุณาลงทะเบียนใหม่อีกครั้ง");
-     GotoHome();
-  }
 }
 
 
