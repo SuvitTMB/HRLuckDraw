@@ -32,7 +32,7 @@ function CheckUser() {
     });
     if(wCgeck==0) {
       alert("กรุณาลงทะเบียนใหม่อีกครั้ง");
-      GotoHome();
+      Mainpage();
     }
   });
 }
@@ -226,6 +226,9 @@ function GotoHome() {
   location.href = "home.html";
 }
 
+function Mainpage() {
+  location.href = "index.html";
+}
 
 function CloseAll() {
   document.getElementById('id02').style.display='none';
