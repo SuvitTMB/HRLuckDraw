@@ -1,1 +1,236 @@
-var _0x5c3aef=_0x1836;function _0x1aae(){var _0x2c2450=['Moblie','134110zFWUjx','log','now','<center><div\x20class=\x22boxtext\x22><b>เสียใจด้วย<br>คุณไม่ได้รับโชคชั้นที่\x202\x20จากเรา</b><br><div\x20style=\x22font-size:11px;\x20margin-top:4px;\x22>','html','1623230WmvPfi','id03','data','\x20---\x20','<div\x20style=\x22margin:50px\x20auto\x2010px\x20auto;\x22><img\x20src=\x22./img/gift-99.png\x22\x20style=\x22width:220px;\x22/></div>','TypeRandom','doc','DateRegister','toLocaleString','where','<div\x20class=\x22btn-1\x22\x20style=\x22margin-top:25px;\x20margin-bottom:\x2015px;\x22>ผลการหมุนรางวัล</div>','padStart','Gold','297vZUzLU','2IHmnpl','ไม่ได้รางวัล','RefID','<div\x20style=\x22margin:50px\x20auto\x200px\x20auto;\x22><img\x20src=\x22./img/gift-99.png\x22\x20style=\x22width:220px;\x22/></div>','home.html','1624456XOLRsO','limit','TypeName','</b><br>คุณได้สิทธิ์ลุ้นรางวัล<br><b>','EmpName','display',')\x20-->','Random\x20name\x20gift\x20=\x20','EmpName_HR','<center>','ขณะนี้ซองอั่งเปาหมดแล้ว\x0aขอบคุณสำหรับการเข้าร่วมกิจกรรม','Asia/Jakarta','</b><br><br>ทรัพยากรบุคคล\x20จะทำการตรวจสอบความถูกต้อง\x20และจะติดต่อผู้โชคดีที่ได้รับรางวัล\x20ภายใน\x208\x20มีนาคม\x202567<br><div\x20style=\x22font-size:11px;\x22>Date\x20:\x20','ShowWheel1','EmpNumber','10648StMkHY','<div\x20class=\x22boxtext\x22\x20style=\x22margin-top:10px;\x22><b>เสียใจด้วยน้า</b><br>คุณไม่ได้รับโชคชั้นที่\x202\x20จากเรา<div\x20style=\x22font-size:11px;\x22>Date\x20:\x20','getElementById','get','random','href','</div></center>','ready','EmpNumber_HR','block','<div\x20style=\x22margin:10px\x20auto\x2010px\x20auto;\x22><img\x20src=\x22./img/','forEach','จักรยานยนต์\x20Honda','869679tGmtMe','<div\x20style=\x22margin:20px\x20auto\x20-10px\x20auto;\x22><img\x20src=\x22./img/gift-99.gif\x22\x20style=\x22width:260px;\x22/></div>','LinePicture','<div\x20class=\x22boxtext\x22\x20style=\x22margin:20px\x20auto;\x22>ขอแสดงความยินดีกับ<br><b>คุณ','.png\x22\x22\x20style=\x22width:95%;\x22/></div>','<center><div\x20class=\x22boxtext\x22><b>ยินดีด้วยคุณได้รับสิทธิ์ลุ้นรางวัล</b><br>กดปิดหน้าต่างเพื่อดูรางวัลของคุณ<br>','===','then','getItem','Found\x20:\x20','RandomNow','โทรศัพท์มือถือ','StartGame','</b><br><br>ทรัพยากรบุคคล\x20จะทำการตรวจสอบความถูกต้อง\x20และประกาศรายชื่อผู้โชคดีที่ได้รับรางวัล\x20ภายใน\x208\x20มีนาคม\x202567<br><div\x20style=\x22font-size:11px;\x22>Date\x20:\x20','สร้อยคอทองคำหนัก\x201\x20บาท','style','floor','#DisplayGift','StaffRefID','</center>','LineName','id04','<center><div\x20class=\x22boxtext\x22><b>คุณไม่ได้รับรางวัล</b><br>','game.html','none','en-US','Game2','index.html','1506IczwFx','id02','2727ZPmmWD','561005joMGSZ','update','<div\x20style=\x22margin:10px\x20auto\x2012px\x20auto;\x22><center><img\x20src=\x22./img/','<div\x20style=\x22margin:20px\x20auto\x200px\x20auto;\x22><img\x20src=\x22./img/gift-99.png\x22\x20style=\x22width:260px;\x22/></div>','</div></div>','add','Motorcycle','5761IFEZPT','.png\x22\x20style=\x22position:\x20relative;\x20width:95%;right:\x200%;\x22></center></div>','getDate','LineID','</div></div></center>','<div\x20class=\x22btn-1\x22\x20style=\x22margin-top:25px;\x20margin-bottom:\x2015px;\x22>ผลการสุ่มเลือกผู้รับโชค</div>','</b><br>คุณได้รับรางวัล<br><b>','loading'];_0x1aae=function(){return _0x2c2450;};return _0x1aae();}(function(_0x4c4981,_0x2953c2){var _0x3deec0=_0x1836,_0x233100=_0x4c4981();while(!![]){try{var _0x12a69f=-parseInt(_0x3deec0(0x187))/0x1*(-parseInt(_0x3deec0(0x1aa))/0x2)+-parseInt(_0x3deec0(0x168))/0x3+-parseInt(_0x3deec0(0x1af))/0x4+parseInt(_0x3deec0(0x19c))/0x5+parseInt(_0x3deec0(0x184))/0x6*(parseInt(_0x3deec0(0x18e))/0x7)+parseInt(_0x3deec0(0x15b))/0x8*(-parseInt(_0x3deec0(0x186))/0x9)+parseInt(_0x3deec0(0x197))/0xa*(parseInt(_0x3deec0(0x1a9))/0xb);if(_0x12a69f===_0x2953c2)break;else _0x233100['push'](_0x233100['shift']());}catch(_0x168122){_0x233100['push'](_0x233100['shift']());}}}(_0x1aae,0x56acd));var dateString=new Date()[_0x5c3aef(0x1a4)](_0x5c3aef(0x181),{'timeZone':_0x5c3aef(0x157)}),today=new Date(),dd=String(today[_0x5c3aef(0x190)]())[_0x5c3aef(0x1a7)](0x2,'0'),mm=String(today['getMonth']()+0x1)[_0x5c3aef(0x1a7)](0x2,'0'),yyyy=today['getFullYear']()+0x21f;function _0x1836(_0x12b85d,_0x1edac4){var _0x1aae03=_0x1aae();return _0x1836=function(_0x18364a,_0x5251c3){_0x18364a=_0x18364a-0x153;var _0x4132c7=_0x1aae03[_0x18364a];return _0x4132c7;},_0x1836(_0x12b85d,_0x1edac4);}today=dd+'/'+mm+'/'+yyyy;var cleararray='',randomDegree=0x0,xGroupGift=0x0,Eid='',CountTicket=0x0,timerId='',EidRandom2='';$(document)[_0x5c3aef(0x162)](function(){var _0x6d0167=_0x5c3aef;sessionStorage[_0x6d0167(0x170)](_0x6d0167(0x163))==null&&(location[_0x6d0167(0x160)]=_0x6d0167(0x183)),Connect_DB(),CheckData();});function CheckData(){var _0x3edbb5=_0x5c3aef;CheckTicket();var _0x15cd09='';gcheck=0x0,dbReward['where'](_0x3edbb5(0x15a),'==',sessionStorage[_0x3edbb5(0x170)](_0x3edbb5(0x163)))['get']()[_0x3edbb5(0x16f)](_0x2460d9=>{var _0x529b2f=_0x3edbb5;_0x2460d9[_0x529b2f(0x166)](_0x19a169=>{var _0x3dd2f0=_0x529b2f;gcheck=0x1,EidRandom2=_0x19a169['id'],console[_0x3dd2f0(0x198)](_0x3dd2f0(0x171)+gcheck+'\x20---\x20'+_0x19a169[_0x3dd2f0(0x19e)]()[_0x3dd2f0(0x1b1)]+_0x3dd2f0(0x19f)+_0x19a169[_0x3dd2f0(0x19e)]()['giftname']),document[_0x3dd2f0(0x15d)](_0x3dd2f0(0x195))['style'][_0x3dd2f0(0x1b4)]=_0x3dd2f0(0x180),document[_0x3dd2f0(0x15d)]('ShowWheel1')[_0x3dd2f0(0x177)][_0x3dd2f0(0x1b4)]=_0x3dd2f0(0x164),_0x15cd09+=_0x3dd2f0(0x155),_0x19a169['data']()[_0x3dd2f0(0x1b1)]==_0x3dd2f0(0x196)||_0x19a169[_0x3dd2f0(0x19e)]()[_0x3dd2f0(0x1b1)]==_0x3dd2f0(0x1a8)||_0x19a169[_0x3dd2f0(0x19e)]()['TypeName']==_0x3dd2f0(0x18d)?(_0x15cd09+=_0x3dd2f0(0x165)+_0x19a169['data']()[_0x3dd2f0(0x1a1)]+_0x3dd2f0(0x16c),_0x15cd09+='<div\x20class=\x22boxtext\x22\x20style=\x22margin:20px\x20auto;\x22>ขอแสดงความยินดีกับ<br><b>คุณ'+_0x19a169[_0x3dd2f0(0x19e)]()[_0x3dd2f0(0x1b3)]+_0x3dd2f0(0x194)+_0x19a169['data']()['TypeName']+_0x3dd2f0(0x158)+_0x19a169[_0x3dd2f0(0x19e)]()[_0x3dd2f0(0x1a3)]+_0x3dd2f0(0x18b)):(_0x15cd09+=_0x3dd2f0(0x1a0),_0x15cd09+=_0x3dd2f0(0x15c)+_0x19a169[_0x3dd2f0(0x19e)]()[_0x3dd2f0(0x1a3)]+'</div></div>'),_0x15cd09+=_0x3dd2f0(0x17b),$(_0x3dd2f0(0x179))[_0x3dd2f0(0x19b)](_0x15cd09);}),gcheck==0x0&&(CountTicket!=0x0&&(document[_0x529b2f(0x15d)](_0x529b2f(0x195))[_0x529b2f(0x177)][_0x529b2f(0x1b4)]=_0x529b2f(0x180),document[_0x529b2f(0x15d)]('StartGame')[_0x529b2f(0x177)]['display']=_0x529b2f(0x164)));});}var timerId='';function CheckRandom(){var _0x4a403b=_0x5c3aef;document[_0x4a403b(0x15d)](_0x4a403b(0x174))[_0x4a403b(0x177)][_0x4a403b(0x1b4)]=_0x4a403b(0x180),document['getElementById'](_0x4a403b(0x172))[_0x4a403b(0x177)][_0x4a403b(0x1b4)]=_0x4a403b(0x164),timerId=setInterval(RandomRewards,0xfa0);}var ArrRewards=[],NewRewards='';function RandomRewards(){var _0x5c42fb=_0x5c3aef;clearTimeout(timerId),document['getElementById'](_0x5c42fb(0x172))['style']['display']=_0x5c42fb(0x180),document[_0x5c42fb(0x15d)](_0x5c42fb(0x185))['style'][_0x5c42fb(0x1b4)]=_0x5c42fb(0x164);var _0x587131=0x0;Eidewards='',dbReward[_0x5c42fb(0x1a5)](_0x5c42fb(0x1a1),'==',sessionStorage['getItem']('TypeRandom_HR'))[_0x5c42fb(0x1a5)](_0x5c42fb(0x191),'==','')['get']()[_0x5c42fb(0x16f)](_0xcd253f=>{var _0x2b73eb=_0x5c42fb;_0xcd253f[_0x2b73eb(0x166)](_0x2ffa92=>{var _0x3293c0=_0x2b73eb;ArrRewards['push']([_0x2ffa92['id'],_0x2ffa92[_0x3293c0(0x19e)]()[_0x3293c0(0x1a1)],_0x2ffa92[_0x3293c0(0x19e)]()[_0x3293c0(0x1b1)]]);}),console[_0x2b73eb(0x198)]('จำนวนที่สุ่ม\x20=\x20'+ArrRewards['length']),NewRewards=random_item(ArrRewards),Eid=NewRewards[0x0],SaveReward();});}function CheckTicket(){var _0x3adfd6=_0x5c3aef;dbReward['where'](_0x3adfd6(0x1ac),'==','')[_0x3adfd6(0x15e)]()[_0x3adfd6(0x16f)](_0x212cc0=>{var _0x3bd908=_0x3adfd6;_0x212cc0[_0x3bd908(0x166)](_0x32ef62=>{CountTicket++;}),CountTicket==0x0&&(alert(_0x3bd908(0x156)),GotoHome());});}function ReCheckUser(){var _0x35447f=_0x5c3aef;dbStaff[_0x35447f(0x1a5)](_0x35447f(0x15a),'==',sessionStorage[_0x35447f(0x170)](_0x35447f(0x163)))[_0x35447f(0x1b0)](0x1)[_0x35447f(0x15e)]()[_0x35447f(0x16f)](_0x329303=>{_0x329303['forEach'](_0x2c6a3a=>{var _0x57c299=_0x1836;document[_0x57c299(0x15d)]('id04')[_0x57c299(0x177)]['display']=_0x57c299(0x164);}),GetCodeRandom(NewRewards[0x0],NewRewards[0x1],NewRewards[0x2]);});}function SaveReward(){var _0x17bda9=_0x5c3aef;NewDate();var _0x47ab4b=Math['round'](Date[_0x17bda9(0x199)]()/0x3e8),_0x51e15a='',_0x292964='';dbReward[_0x17bda9(0x1a2)](Eid)['update']({'LineID':sessionStorage['getItem'](_0x17bda9(0x191)),'LineName':sessionStorage['getItem'](_0x17bda9(0x17c)),'LinePicture':sessionStorage['getItem'](_0x17bda9(0x16a)),'EmpNumber':sessionStorage['getItem'](_0x17bda9(0x163)),'EmpName':sessionStorage[_0x17bda9(0x170)]('EmpName_HR'),'RefID':sessionStorage[_0x17bda9(0x170)]('StaffRefID'),'DateRegister':dateString,'TimeStamp':_0x47ab4b}),dbStaff['doc'](sessionStorage[_0x17bda9(0x170)](_0x17bda9(0x17a)))[_0x17bda9(0x188)]({'Check2':0x1,'RefID':Eid,'Reward2':NewRewards[0x2],'DateReward2':dateString}),dbLogRandom[_0x17bda9(0x18c)]({'Game':_0x17bda9(0x182),'LineID':sessionStorage[_0x17bda9(0x170)](_0x17bda9(0x191)),'LineName':sessionStorage[_0x17bda9(0x170)](_0x17bda9(0x17c)),'LinePicture':sessionStorage[_0x17bda9(0x170)](_0x17bda9(0x16a)),'EmpNumber':sessionStorage[_0x17bda9(0x170)](_0x17bda9(0x163)),'EmpName':sessionStorage[_0x17bda9(0x170)](_0x17bda9(0x154)),'TypeRandom':sessionStorage[_0x17bda9(0x170)]('TypeRandom_HR'),'Reward1':'','Reward1Check':'','Reward2':NewRewards[0x2],'Reward2Check':NewRewards[0x1],'RefID':sessionStorage[_0x17bda9(0x170)]('StaffRefID'),'DateConsend':dateString,'TimeStamp':_0x47ab4b}),console['log']('xGroupGift='+NewRewards[0x2]+_0x17bda9(0x16e)+NewRewards[0x1]);if(NewRewards[0x2]==_0x17bda9(0x1ab)||NewRewards[0x2]==0x0)_0x51e15a+=_0x17bda9(0x1ad),_0x51e15a+='<center><div\x20class=\x22boxtext\x22><b>เสียใจด้วย<br>คุณไม่ได้รับโชคชั้นที่\x202\x20จากเรา</b><br><div\x20style=\x22font-size:11px;\x20margin-top:4px;\x22>'+dateString+_0x17bda9(0x192),_0x292964+=_0x17bda9(0x193),_0x292964+=_0x17bda9(0x18a),_0x292964+='<center><div\x20class=\x22boxtext\x22><b>คุณไม่ได้รับรางวัล</b><br>'+dateString+'</div></center>';else NewRewards[0x2]==_0x17bda9(0x173)||NewRewards[0x2]==_0x17bda9(0x176)||NewRewards[0x2]==_0x17bda9(0x167)?(_0x51e15a+=_0x17bda9(0x189)+NewRewards[0x1]+_0x17bda9(0x18f),_0x51e15a+=_0x17bda9(0x16b)+sessionStorage['getItem'](_0x17bda9(0x154))+_0x17bda9(0x1b2)+NewRewards[0x2]+_0x17bda9(0x175)+dateString+'</div></div>',_0x292964+=_0x17bda9(0x1a6),_0x292964+=_0x17bda9(0x169),_0x292964+=_0x17bda9(0x16d)+dateString+'</div></center>'):(_0x51e15a+=_0x17bda9(0x1ad),_0x51e15a+=_0x17bda9(0x19a)+dateString+_0x17bda9(0x192),_0x292964+='<div\x20class=\x22btn-1\x22\x20style=\x22margin-top:25px;\x20margin-bottom:\x2015px;\x22>ผลการสุ่มเลือกผู้รับโชค</div>',_0x292964+=_0x17bda9(0x18a),_0x292964+=_0x17bda9(0x17e)+dateString+_0x17bda9(0x161));$(_0x17bda9(0x179))['html'](_0x51e15a),document['getElementById'](_0x17bda9(0x159))[_0x17bda9(0x177)][_0x17bda9(0x1b4)]=_0x17bda9(0x164);}function GetCodeRandom(_0x3dcf0d,_0x50b46f,_0x161bf3){var _0xe0e489=_0x5c3aef;console[_0xe0e489(0x198)](_0xe0e489(0x153)+_0x161bf3+'\x20('+_0x50b46f+_0xe0e489(0x1b5)+_0x3dcf0d);}function random_item(_0x4d5a0e){var _0x552c76=_0x5c3aef;return _0x4d5a0e[Math[_0x552c76(0x178)](Math[_0x552c76(0x15f)]()*_0x4d5a0e['length'])];SaveReward();}function Opengift(){var _0xef9576=_0x5c3aef;document['getElementById'](_0xef9576(0x19d))['style'][_0xef9576(0x1b4)]=_0xef9576(0x164);}function OpenReload(){var _0x4b9d49=_0x5c3aef;location[_0x4b9d49(0x160)]=_0x4b9d49(0x17f);}function GotoHome(){var _0x20b66f=_0x5c3aef;location['href']=_0x20b66f(0x1ae);}function CloseAll(){var _0x179ee3=_0x5c3aef;document[_0x179ee3(0x15d)](_0x179ee3(0x185))[_0x179ee3(0x177)]['display']=_0x179ee3(0x180),document[_0x179ee3(0x15d)]('id03')[_0x179ee3(0x177)][_0x179ee3(0x1b4)]='none',document[_0x179ee3(0x15d)](_0x179ee3(0x17d))[_0x179ee3(0x177)]['display']='none';}
+var dateString = new Date().toLocaleString('en-US', { timeZone: 'Asia/Jakarta' });
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear()+543;
+today = dd + '/' + mm + '/' + yyyy;
+var cleararray = "";
+var randomDegree = 0;
+var xGroupGift = 0;
+var Eid = "";
+var CountTicket = 0;
+var timerId = "";
+var EidRandom2 = "";
+
+$(document).ready(function () {
+  if(sessionStorage.getItem("EmpNumber_HR")==null) { location.href = "index.html"; }
+  Connect_DB();
+  CheckUser();
+  CheckData();
+});
+
+
+
+
+function CheckUser() {
+  var wCgeck = 0;
+  dbStaff.where('EmpNumber','==',sessionStorage.getItem("EmpNumber_HR"))
+  .where('LineID','==',sessionStorage.getItem("LineID"))
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      wCgeck = 1;
+    });
+    if(wCgeck==0) {
+      alert("กรุณาลงทะเบียนใหม่อีกครั้ง");
+      GotoHome();
+    }
+  });
+}
+
+
+
+function CheckData() {
+  CheckTicket();
+  var str = "";
+  gcheck = 0;
+  dbReward.where('EmpNumber','==',sessionStorage.getItem("EmpNumber_HR"))
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      gcheck = 1;
+      EidRandom2 = doc.id;
+      console.log("Found : "+gcheck+" --- "+ doc.data().TypeName+" --- "+ doc.data().giftname );
+      document.getElementById('loading').style.display='none';
+      document.getElementById('ShowWheel1').style.display='block';
+      str += '<center>';
+      if(doc.data().TypeName=="Moblie" || doc.data().TypeName=="Gold" || doc.data().TypeName=="Motorcycle") {
+        str += '<div style="margin:10px auto 10px auto;"><img src="./img/'+ doc.data().TypeRandom +'.png"" style="width:95%;"/></div>';
+        str += '<div class="boxtext" style="margin:20px auto;">ขอแสดงความยินดีกับ<br><b>คุณ'+ doc.data().EmpName +'</b><br>คุณได้รับรางวัล<br><b>'+ doc.data().TypeName +'</b><br><br>ทรัพยากรบุคคล จะทำการตรวจสอบความถูกต้อง และจะติดต่อผู้โชคดีที่ได้รับรางวัล ภายใน 8 มีนาคม 2567<br><div style="font-size:11px;">Date : '+ doc.data().DateRegister +'</div></div>';
+      } else {
+        str += '<div style="margin:50px auto 10px auto;"><img src="./img/gift-99.png" style="width:220px;"/></div>';
+        str += '<div class="boxtext" style="margin-top:10px;"><b>เสียใจด้วยน้า</b><br>คุณไม่ได้รับโชคชั้นที่ 2 จากเรา<div style="font-size:11px;">Date : '+ doc.data().DateRegister +'</div></div>';
+      }
+      str += '</center>';
+      $("#DisplayGift").html(str);
+    });
+    if(gcheck==0) {
+      if(CountTicket!=0) {
+        document.getElementById('loading').style.display='none';
+        document.getElementById('StartGame').style.display='block';      
+      }
+    }
+  });
+}
+
+
+var timerId = "";
+function CheckRandom() {
+  document.getElementById('StartGame').style.display='none';
+  document.getElementById('RandomNow').style.display='block';
+  timerId = setInterval(RandomRewards, 4000); 
+}
+
+
+var ArrRewards = [];
+var NewRewards = "";
+function RandomRewards() { 
+  clearTimeout(timerId);
+  document.getElementById('RandomNow').style.display='none';
+  document.getElementById('id02').style.display='block';
+  var i = 0;
+  Eidewards = "";
+  dbReward.where('TypeRandom','==',sessionStorage.getItem("TypeRandom_HR"))
+  .where('LineID','==','')
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=>{
+      ArrRewards.push([doc.id, doc.data().TypeRandom, doc.data().TypeName ]);
+    });
+    console.log("จำนวนที่สุ่ม = "+ArrRewards.length);
+    NewRewards = random_item(ArrRewards);
+    Eid = NewRewards[0];
+    SaveReward();
+  });  
+}
+
+
+function CheckTicket() { 
+  dbReward.where('RefID','==',"")
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=>{
+      CountTicket++;
+    });
+    if(CountTicket==0) {
+      alert("ขณะนี้ซองอั่งเปาหมดแล้ว\nขอบคุณสำหรับการเข้าร่วมกิจกรรม");
+      GotoHome();
+    }
+  });  
+}
+
+
+function ReCheckUser() { 
+  dbStaff.where('EmpNumber','==',sessionStorage.getItem("EmpNumber_HR"))
+  .limit(1)
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=>{
+      document.getElementById('id04').style.display='block';
+    });
+    GetCodeRandom(NewRewards[0], NewRewards[1], NewRewards[2]);
+  });  
+}
+
+
+function SaveReward() {
+  NewDate();
+  var TimeStampDate = Math.round(Date.now() / 1000);
+  var str = "";
+  var str0 = "";
+
+  dbReward.doc(Eid).update({
+    LineID : sessionStorage.getItem("LineID"),
+    LineName : sessionStorage.getItem("LineName"),
+    LinePicture : sessionStorage.getItem("LinePicture"),
+    EmpNumber : sessionStorage.getItem("EmpNumber_HR"),
+    EmpName : sessionStorage.getItem("EmpName_HR"),
+    RefID : sessionStorage.getItem("StaffRefID"),
+    DateRegister : dateString,
+    TimeStamp : TimeStampDate
+  });
+
+  dbStaff.doc(sessionStorage.getItem("StaffRefID")).update({
+    Check2 : 1,
+    RefID : Eid,
+    Reward2 : NewRewards[2],
+    DateReward2 : dateString
+  });
+
+  dbLogRandom.add({
+    Game : "Game2",
+    LineID : sessionStorage.getItem("LineID"),
+    LineName : sessionStorage.getItem("LineName"),
+    LinePicture : sessionStorage.getItem("LinePicture"),
+    EmpNumber : sessionStorage.getItem("EmpNumber_HR"),
+    EmpName : sessionStorage.getItem("EmpName_HR"),
+    TypeRandom : sessionStorage.getItem("TypeRandom_HR"),
+    Reward1 : "",
+    Reward1Check : "",
+    Reward2 : NewRewards[2],
+    Reward2Check : NewRewards[1],
+    RefID : sessionStorage.getItem("StaffRefID"),
+    DateConsend : dateString,
+    TimeStamp : TimeStampDate
+  });
+
+  console.log("xGroupGift="+NewRewards[2]+"==="+NewRewards[1]);
+  if(NewRewards[2]=='ไม่ได้รางวัล' || NewRewards[2]==0) {
+    str += '<div style="margin:50px auto 0px auto;"><img src="./img/gift-99.png" style="width:220px;"/></div>';
+    str += '<center><div class="boxtext"><b>เสียใจด้วย<br>คุณไม่ได้รับโชคชั้นที่ 2 จากเรา</b><br><div style="font-size:11px; margin-top:4px;">'+ dateString +'</div></div></center>';        
+    str0 += '<div class="btn-1" style="margin-top:25px; margin-bottom: 15px;">ผลการสุ่มเลือกผู้รับโชค</div>';
+    str0 += '<div style="margin:20px auto 0px auto;"><img src="./img/gift-99.png" style="width:260px;"/></div>';
+    str0 += '<center><div class="boxtext"><b>คุณไม่ได้รับรางวัล</b><br>'+ dateString +'</div></center>';
+  } else if(NewRewards[2]=='โทรศัพท์มือถือ' || NewRewards[2]=='สร้อยคอทองคำหนัก 1 บาท' || NewRewards[2]=='จักรยานยนต์ Honda') {
+  //} else {
+    //str += '<div style="margin:30px auto 0px auto;"><img src="./img/gift-99.png" style="width:260px;"/></div>';
+    str += '<div style="margin:10px auto 12px auto;"><center><img src="./img/'+ NewRewards[1] +'.png" style="position: relative; width:95%;right: 0%;"></center></div>';
+    str += '<div class="boxtext" style="margin:20px auto;">ขอแสดงความยินดีกับ<br><b>คุณ'+ sessionStorage.getItem("EmpName_HR") +'</b><br>คุณได้สิทธิ์ลุ้นรางวัล<br><b>'+ NewRewards[2] +'</b><br><br>ทรัพยากรบุคคล จะทำการตรวจสอบความถูกต้อง และประกาศรายชื่อผู้โชคดีที่ได้รับรางวัล ภายใน 8 มีนาคม 2567<br><div style="font-size:11px;">Date : '+ dateString +'</div></div>';
+    //str += '<center><div class="boxtext">ยินดีด้วย ... คุณได้รับรางวัล<br><b>'+  NewRewards[2] +'</b><br>ทรัพยากรบุคคล จะทำการตรวจสอบความถูกต้อง และจะติดต่อผู้โชคดีที่ได้รับรางวัลใหญ่ 3 รางวัล ภายใน 8 มีนาคม 2567<br><div style="font-size:11px; margin-top:4px;">'+ dateString +'</div></div></center>';
+    str0 += '<div class="btn-1" style="margin-top:25px; margin-bottom: 15px;">ผลการหมุนรางวัล</div>';
+    str0 += '<div style="margin:20px auto -10px auto;"><img src="./img/gift-99.gif" style="width:260px;"/></div>';
+    str0 += '<center><div class="boxtext"><b>ยินดีด้วยคุณได้รับสิทธิ์ลุ้นรางวัล</b><br>กดปิดหน้าต่างเพื่อดูรางวัลของคุณ<br>'+ dateString +'</div></center>';
+
+  } else {
+    str += '<div style="margin:50px auto 0px auto;"><img src="./img/gift-99.png" style="width:220px;"/></div>';
+    str += '<center><div class="boxtext"><b>เสียใจด้วย<br>คุณไม่ได้รับโชคชั้นที่ 2 จากเรา</b><br><div style="font-size:11px; margin-top:4px;">'+ dateString +'</div></div></center>';        
+    str0 += '<div class="btn-1" style="margin-top:25px; margin-bottom: 15px;">ผลการสุ่มเลือกผู้รับโชค</div>';
+    str0 += '<div style="margin:20px auto 0px auto;"><img src="./img/gift-99.png" style="width:260px;"/></div>';
+    str0 += '<center><div class="boxtext"><b>คุณไม่ได้รับรางวัล</b><br>'+ dateString +'</div></center>';
+
+  }
+  $("#DisplayGift").html(str);
+  //$("#DisplayGiftRewards").html(str0);
+  document.getElementById('ShowWheel1').style.display='block';
+}
+
+
+function GetCodeRandom(id,x,y) {
+  console.log("Random name gift = "+ y +" ("+ x +") -->"+ id);
+
+}
+
+
+function random_item(items) {
+  return items[Math.floor(Math.random()*items.length)];   
+  SaveReward();
+}
+
+
+function Opengift() {
+  document.getElementById('id03').style.display='block';
+}
+
+
+function OpenReload() {
+  location.href = "game.html";
+}
+
+
+function GotoHome() {
+  location.href = "home.html";
+}
+
+
+function CloseAll() {
+  document.getElementById('id02').style.display='none';
+  document.getElementById('id03').style.display='none';
+  document.getElementById('id04').style.display='none';
+}
+
+
