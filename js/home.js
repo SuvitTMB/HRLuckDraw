@@ -74,9 +74,9 @@ function CheckData() {
     });
     $("#MyRewards").html(str);  
   });
-  if(EidProfile=="") {
-     GotoHome();
-  }
+  //if(EidProfile=="") {
+  //   GotoHome();
+  //}
 }
 
 
