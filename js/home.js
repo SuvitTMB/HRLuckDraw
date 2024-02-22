@@ -15,7 +15,7 @@ function CheckData() {
   .get().then((snapshot)=> {
     snapshot.forEach(doc=> {
       if(doc.data().LineID!=sessionStorage.getItem("LineID")) {
-        alert("ไม่เท่ากัน")
+        //alert("ไม่เท่ากัน")
         GotoHome();
       }
       EidProfile = doc.id;
@@ -66,9 +66,10 @@ function CheckData() {
     });
     $("#MyRewards").html(str);  
   });
-  //if(EidProfile=="") {
-  //   GotoHome();
-  //}
+  if(EidProfile=="") {
+    alert("กรุณาลงทะเบียนใหม่อีกครั้ง");
+     GotoHome();
+  }
 }
 
 
