@@ -15,6 +15,7 @@ function CheckData() {
   .get().then((snapshot)=> {
     snapshot.forEach(doc=> {
       if(doc.data().LineID!=sessionStorage.getItem("LineID")) {
+        alert("ไม่เท่ากัน")
         GotoHome();
       }
       EidProfile = doc.id;
