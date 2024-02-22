@@ -74,7 +74,7 @@ function CheckData() {
     });
     $("#MyRewards").html(str);  
   });
-  if(Eid=="") {
+  if(EidProfile=="") {
      GotoHome();
   }
 }
