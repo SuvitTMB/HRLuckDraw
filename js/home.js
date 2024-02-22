@@ -17,6 +17,7 @@ function CheckData() {
       if(doc.data().LineID!=sessionStorage.getItem("LineID")) {
         GotoHome();
       }
+      alert("new");
       EidProfile = doc.id;
       //str += '<div><img src="'+ doc.data().LinePicture +'" class="add-profile"></div>';
       //str += '<div class="NameLine">'+ doc.data().LineName+'</div>';
