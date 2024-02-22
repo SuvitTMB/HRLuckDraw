@@ -1,1 +1,87 @@
-var _0x4545d0=_0x371b;(function(_0x3e7543,_0x574cdc){var _0x734ebe=_0x371b,_0x33902f=_0x3e7543();while(!![]){try{var _0x40de83=parseInt(_0x734ebe(0x191))/0x1+-parseInt(_0x734ebe(0x1ab))/0x2*(parseInt(_0x734ebe(0x190))/0x3)+-parseInt(_0x734ebe(0x1a8))/0x4+parseInt(_0x734ebe(0x1ae))/0x5+parseInt(_0x734ebe(0x1b1))/0x6*(-parseInt(_0x734ebe(0x195))/0x7)+-parseInt(_0x734ebe(0x1b2))/0x8+-parseInt(_0x734ebe(0x1b8))/0x9*(-parseInt(_0x734ebe(0x1b9))/0xa);if(_0x40de83===_0x574cdc)break;else _0x33902f['push'](_0x33902f['shift']());}catch(_0x3e22fa){_0x33902f['push'](_0x33902f['shift']());}}}(_0x22d7,0x2300a));function _0x22d7(){var _0x5ca2a0=['<div\x20class=\x22NameLine\x22\x20style=\x22color:#fff;\x22>','<div\x20style=\x22height:\x2030px;\x22><div\x20class=\x22btn\x20btn-primary\x20btn-lg\x22\x20id=\x22btn-random1\x22\x20style=\x22background:#28a745;border:\x20solid\x20#fff\x202px;\x22>คลิกลุ้นโชคครั้งที่\x201</div></div>','getItem','<div\x20style=\x22width:60%;\x20float:\x20left;\x20padding:5px\x20auto;\x22\x20onclick=\x22Random2()\x22>','#MyProfile','<div\x20style=\x22height:\x2055px;padding-top:3px;\x22>กิจกรรมลุ้นโชค\x20ชั้นที่\x202<br><font\x20color=\x22#ffff00\x22>ลุ้นรับสิทธิ์เพื่อรับ<br>ของรางวัลใหญ่\x203\x20รางวัล</font></div>','EmpNumber_HR','<div\x20style=\x22width:60%;\x20float:\x20left;\x20padding:5px\x20auto;\x22>','\x22\x20class=\x22add-profile\x22></div>','#MyRewards','573092UeDpeE','<div\x20style=\x22height:\x2050px;padding-top:8px;\x22>กิจกรรมลุ้นโชค\x20ชั้นที่\x201<br>คุณได้รับเงินสดมูลค่า</div>','game1.html','452142HHQgEv','<div\x20style=\x22height:\x2020px;\x20font-size:\x2015px;\x20font-weight:\x20600;\x20color:#ffff00;line-height:\x201.1;\x22>ไม่ได้สิทธิ์ลุ้นรางวัล</div>','Reward1','417815DKXxYb','<div\x20style=\x22width:40%;\x20float:\x20left;text-align:center;\x22><img\x20src=\x22./img/Seamasi-07.png\x22\x20style=\x22width:110px;padding-top:5px;\x22></div>','EmpNumber','10986fZxfip','1541176uRxElt','none','<div\x20class=\x22btn-menu\x22>','<div\x20style=\x22width:40%;\x20float:\x20left;text-align:center;\x22><img\x20src=\x22./img/icons-giftbox.png\x22\x20style=\x22width:100px;\x22></div>','getElementById','ready','9lrSxpR','7380430vYJHdw','<div\x20style=\x22height:\x2055px;padding-top:3px;\x22>กิจกรรมลุ้นโชค\x20ชั้นที่\x201<br><font\x20color=\x22#ffff00\x22>ลุ้นรับเงินสดมูลค่า<br>1,000\x20-\x205,000\x20บาท</font></div>','<div\x20style=\x22height:\x2030px;\x22><div\x20class=\x22btn\x20btn-primary\x20btn-lg\x22\x20id=\x22btn-random1\x22\x20style=\x22background:#28a745;border:\x20solid\x20#fff\x202px;\x22>คลิกลุ้นโชคครั้งที่\x202</div></div></div></div><div\x20class=\x22clr\x22></div>','html','<div\x20style=\x22height:\x2050px;\x20font-size:\x2014px;\x20font-weight:\x20600;\x20color:#ffff00;line-height:\x201.1;\x22>คุณได้สิทธิ์ลุ้นรางวัล<br>','where','<div\x20style=\x22height:\x2060px;padding-top:8px;\x22>กิจกรรมลุ้นโชค\x20ชั้นที่\x202<br>ผลการลุ้นรางวัลของคุณ</div>','href','<div\x20style=\x22height:\x2035px;padding-top:8px;\x22>กิจกรรมลุ้นโชค\x20ชั้นที่\x202</div>','then','<div\x20style=\x22height:\x2020px;\x20font-size:\x2022px;\x20font-weight:\x20600;\x20color:#ffff00;\x22>','forEach','Check2','</div></div><div\x20class=\x22clr\x22></div>','3aCJeWC','39390EDuzXa','Check1','<div></div></div></div><div\x20class=\x22clr\x22></div>','display','595uNxvfc','style','EmpName','game2.html','</div>','index.html','ไม่ได้รางวัล','<div><img\x20src=\x22','data'];_0x22d7=function(){return _0x5ca2a0;};return _0x22d7();}var EidProfile='';$(document)[_0x4545d0(0x1b7)](function(){var _0x3ece8d=_0x4545d0;sessionStorage['getItem'](_0x3ece8d(0x1a4))==null&&(location['href']=_0x3ece8d(0x19a)),Connect_DB(),CheckData();});function _0x371b(_0x1d00ed,_0x25cca6){var _0x22d7a5=_0x22d7();return _0x371b=function(_0x371b7b,_0xc08b6e){_0x371b7b=_0x371b7b-0x185;var _0x2945d4=_0x22d7a5[_0x371b7b];return _0x2945d4;},_0x371b(_0x1d00ed,_0x25cca6);}function CheckData(){var _0x5db1e6=_0x4545d0,_0x549cf9='',_0x371623='';dbStaff[_0x5db1e6(0x187)](_0x5db1e6(0x1b0),'==',sessionStorage[_0x5db1e6(0x1a0)](_0x5db1e6(0x1a4)))['get']()[_0x5db1e6(0x18b)](_0x9372e=>{var _0x58401a=_0x5db1e6;_0x9372e[_0x58401a(0x18d)](_0x2e1404=>{var _0x415bc3=_0x58401a;EidProfile=_0x2e1404['id'],_0x371623+=_0x415bc3(0x19c)+sessionStorage[_0x415bc3(0x1a0)]('LinePicture')+_0x415bc3(0x1a6),_0x371623+=_0x415bc3(0x19e)+_0x2e1404[_0x415bc3(0x19d)]()[_0x415bc3(0x197)]+_0x415bc3(0x199),$(_0x415bc3(0x1a2))['html'](_0x371623),_0x2e1404[_0x415bc3(0x19d)]()[_0x415bc3(0x192)]!=0x0&&_0x2e1404[_0x415bc3(0x19d)]()['Reward1']!=''?(_0x549cf9+=_0x415bc3(0x1b4),_0x549cf9+=_0x415bc3(0x1b5),_0x549cf9+=_0x415bc3(0x1a5),_0x549cf9+=_0x415bc3(0x1a9),_0x549cf9+=_0x415bc3(0x18c)+_0x2e1404[_0x415bc3(0x19d)]()[_0x415bc3(0x1ad)]+'</div>',_0x549cf9+=_0x415bc3(0x193)):(_0x549cf9+=_0x415bc3(0x1b4),_0x549cf9+=_0x415bc3(0x1b5),_0x549cf9+='<div\x20style=\x22width:60%;\x20float:\x20left;\x20padding:5px\x20auto;\x22\x20onclick=\x22Random1()\x22>',_0x549cf9+=_0x415bc3(0x1ba),_0x549cf9+=_0x415bc3(0x19f),_0x549cf9+=_0x415bc3(0x18f)),_0x2e1404[_0x415bc3(0x19d)]()[_0x415bc3(0x18e)]!=0x0?(_0x549cf9+='<div\x20class=\x22btn-menu\x22>',_0x549cf9+='<div\x20style=\x22width:40%;\x20float:\x20left;text-align:center;\x22><img\x20src=\x22./img/Seamasi-07.png\x22\x20style=\x22width:110px;padding-top:5px;\x22></div>',_0x549cf9+=_0x415bc3(0x1a5),_0x2e1404['data']()['Reward2']==_0x415bc3(0x19b)?(_0x549cf9+=_0x415bc3(0x188),_0x549cf9+=_0x415bc3(0x1ac),_0x549cf9+='<div></div></div></div><div\x20class=\x22clr\x22></div>'):(_0x549cf9+=_0x415bc3(0x18a),_0x549cf9+=_0x415bc3(0x186)+_0x2e1404['data']()['Reward2']+'<br>โปรดรอประกาศจาก\x20HR</div>',_0x549cf9+=_0x415bc3(0x193))):(_0x549cf9+=_0x415bc3(0x1b4),_0x549cf9+=_0x415bc3(0x1af),_0x549cf9+=_0x415bc3(0x1a1),_0x549cf9+=_0x415bc3(0x1a3),_0x549cf9+=_0x415bc3(0x1bb));}),$(_0x58401a(0x1a7))[_0x58401a(0x185)](_0x549cf9);});}function Random1(){var _0x92ce00=_0x4545d0;location[_0x92ce00(0x189)]=_0x92ce00(0x1aa);}function Random2(){var _0x4c7cd9=_0x4545d0;location['href']=_0x4c7cd9(0x198);}function CloseAll(){var _0x15208f=_0x4545d0;document[_0x15208f(0x1b6)]('id01')[_0x15208f(0x196)][_0x15208f(0x194)]=_0x15208f(0x1b3);}
+var EidProfile = "";
+
+$(document).ready(function () {
+  if(sessionStorage.getItem("EmpNumber_HR")==null) { location.href = "index.html"; }
+  Connect_DB();
+  CheckData();
+});
+
+
+function CheckData() {
+  var str = "";
+  var str1 = "";
+  dbStaff.where('EmpNumber','==',sessionStorage.getItem("EmpNumber_HR"))
+  .where('LineID','==',sessionStorage.getItem("LineID"))
+  .get().then((snapshot)=> {
+    snapshot.forEach(doc=> {
+      if(doc.data().LineID!=sessionStorage.getItem("LineID")) {
+        GotoHome();
+      }
+      EidProfile = doc.id;
+      //str += '<div><img src="'+ doc.data().LinePicture +'" class="add-profile"></div>';
+      //str += '<div class="NameLine">'+ doc.data().LineName+'</div>';
+      str1 += '<div><img src="'+ sessionStorage.getItem("LinePicture") +'" class="add-profile"></div>';
+      str1 += '<div class="NameLine" style="color:#fff;">'+ doc.data().EmpName +'</div>';
+      $("#MyProfile").html(str1);  
+      if(doc.data().Check1!=0 && doc.data().Reward1!="") {
+        str += '<div class="btn-menu">';
+        str += '<div style="width:40%; float: left;text-align:center;"><img src="./img/icons-giftbox.png" style="width:100px;"></div>';
+        //str += '<div style="width:40%; float: left;text-align:center;"><img src="./img/Seamasi-07.png" style="width:110px;padding-top:5px;"></div>';
+        str += '<div style="width:60%; float: left; padding:5px auto;">';
+        str += '<div style="height: 50px;padding-top:8px;">กิจกรรมลุ้นโชค ชั้นที่ 1<br>คุณได้รับเงินสดมูลค่า</div>';
+        str += '<div style="height: 20px; font-size: 22px; font-weight: 600; color:#ffff00;">'+ doc.data().Reward1+'</div>';
+        str += '<div></div></div></div><div class="clr"></div>';      
+      } else {
+        str += '<div class="btn-menu">';
+          str += '<div style="width:40%; float: left;text-align:center;"><img src="./img/icons-giftbox.png" style="width:100px;"></div>';
+        //str += '<div style="width:40%; float: left;text-align:center;"><img src="./img/Seamasi-07.png" style="width:110px;padding-top:5px;"></div>';
+        str += '<div style="width:60%; float: left; padding:5px auto;" onclick="Random1()">';
+        str += '<div style="height: 55px;padding-top:3px;">กิจกรรมลุ้นโชค ชั้นที่ 1<br><font color="#ffff00">ลุ้นรับเงินสดมูลค่า<br>1,000 - 5,000 บาท</font></div>';
+        str += '<div style="height: 30px;"><div class="btn btn-primary btn-lg" id="btn-random1" style="background:#28a745;border: solid #fff 2px;">คลิกลุ้นโชคครั้งที่ 1</div></div>';
+        str += '</div></div><div class="clr"></div>';      
+      }
+        //if(doc.data().Check2!=0 && doc.data().Reward2!="") {
+      if(doc.data().Check2!=0) {
+        str += '<div class="btn-menu">';
+        str += '<div style="width:40%; float: left;text-align:center;"><img src="./img/Seamasi-07.png" style="width:110px;padding-top:5px;"></div>';
+        //str += '<div style="width:40%; float: left;text-align:center;"><img src="./img/icons-giftbox.png" style="width:100px;"></div>';
+        str += '<div style="width:60%; float: left; padding:5px auto;">';
+        if(doc.data().Reward2=="ไม่ได้รางวัล") {
+          str += '<div style="height: 60px;padding-top:8px;">กิจกรรมลุ้นโชค ชั้นที่ 2<br>ผลการลุ้นรางวัลของคุณ</div>';
+          //str += '<div style="height: 20px; font-size: 15px; font-weight: 600; color:#ffff00;line-height: 1.1;">'+ doc.data().Reward2 +'</div>';
+          str += '<div style="height: 20px; font-size: 15px; font-weight: 600; color:#ffff00;line-height: 1.1;">ไม่ได้สิทธิ์ลุ้นรางวัล</div>';
+          str += '<div></div></div></div><div class="clr"></div>';
+        } else {
+          str += '<div style="height: 35px;padding-top:8px;">กิจกรรมลุ้นโชค ชั้นที่ 2</div>';
+          str += '<div style="height: 50px; font-size: 14px; font-weight: 600; color:#ffff00;line-height: 1.1;">คุณได้สิทธิ์ลุ้นรางวัล<br>'+ doc.data().Reward2 +'<br>โปรดรอประกาศจาก HR</div>';
+          str += '<div></div></div></div><div class="clr"></div>';
+        }
+      } else {
+        str += '<div class="btn-menu">';
+        str += '<div style="width:40%; float: left;text-align:center;"><img src="./img/Seamasi-07.png" style="width:110px;padding-top:5px;"></div>';
+        //str += '<div style="width:40%; float: left;text-align:center;"><img src="./img/icons-giftbox.png" style="width:100px;"></div>';
+        str += '<div style="width:60%; float: left; padding:5px auto;" onclick="Random2()">';
+        str += '<div style="height: 55px;padding-top:3px;">กิจกรรมลุ้นโชค ชั้นที่ 2<br><font color="#ffff00">ลุ้นรับสิทธิ์เพื่อรับ<br>ของรางวัลใหญ่ 3 รางวัล</font></div>';
+        str += '<div style="height: 30px;"><div class="btn btn-primary btn-lg" id="btn-random1" style="background:#28a745;border: solid #fff 2px;">คลิกลุ้นโชคครั้งที่ 2</div></div></div></div><div class="clr"></div>';
+      }
+    });
+    $("#MyRewards").html(str);  
+
+  });
+}
+
+
+function GotoHome() {
+  location.href = "index.html";
+}
+function Random1() {
+  location.href = "game1.html";
+}
+function Random2() {
+  location.href = "game2.html";
+}
+
+
+function CloseAll() {
+  document.getElementById('id01').style.display='none';
+}
