@@ -126,7 +126,7 @@ function CheckProfile() {
         str += '<div class="input-group"><input type="checkbox" id="txtEmpAccept" onclick="CheckButtomClick()"/>';
         str += '<label for="txtEmpAccept"><ul style="font-size: 13px; text-align:left;">';
         str += '<li>ข้าพเจ้ารับทราบและตกลงยินยอมให้ธนาคารเก็บรวบรวม ใช้ หรือเปิดเผยข้อมูลส่วนบุคคลของข้าพเจ้าที่ได้ให้ไว้ เพื่อดำเนินการตามวัตถุประสงค์ของโครงการ อั่งเปาโชค 2 ชั้นจากทีทีบี และยอมรับหลักเกณฑ์ที่ธนาคารกำหนดไว้ทั้งหมด</li>';
-        str += '<li>ธนาคารสงวนสิทธิ์ในการกำหนด เปลี่ยนแปลง หรือยกเลิกหลักเกณฑ์ใด ๆ ตามความเหมาะสม และการตัดสินใจของธนาคารถือเป็นที่สุด</li></ul>';
+        str += '<li>ผู้มีคุณสมบัติเข้าร่วมโครงการใช้สิทธิ์ได้ 1 ครั้ง โดยใช้ข้อมูลของตนเองเท่านั้น ธนาคารสงวนสิทธิ์ในการยกเลิกรางวัลหากพบการปฏิบัติไม่เป็นไปตามที่กำหนด</li><li>ธนาคารสงวนสิทธิ์ในการกำหนด เปลี่ยนแปลง หรือยกเลิกหลักเกณฑ์ใด ๆ ตามความเหมาะสม และการตัดสินใจของธนาคารถือเป็นที่สุด</li></ul>';
         str += '<div id="SubmitApp" class="btn btn-primary btn-lg disabledbutton" onclick="ConfirmRegister()" style="margin-left:20px;margin-top:25px;background:#28a745; border:2px solid #fff; font-size:13px; margin-right:5px;">ยืนยันลงทะเบียน</div>';
         str += '<div id="overlay" class="btn btn-primary btn-lg" onclick="CloseAll()" style="margin-top:25px; background:#6c757d; border:2px solid #fff; font-size:13px;">ยกเลิกรายการ</div>';
         str += '</div>';
