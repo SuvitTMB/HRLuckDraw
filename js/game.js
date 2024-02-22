@@ -1,16 +1,7 @@
 var EidProfile = "";
-//var CheckFound = 0;
-//var CheckFoundData = 0;
-//var EidEmpNumber = "";
 
 $(document).ready(function () {
   if(sessionStorage.getItem("EmpNumber_HR")==null) { location.href = "index.html"; }
-
-  //console.log(sessionStorage.getItem("EmpNumber_HR"))
-  //console.log(sessionStorage.getItem("EmpName_HR"))
-  //console.log(sessionStorage.getItem("TypeRandom_HR"))
-  //console.log(sessionStorage.getItem("StaffRefID"))
-
   Connect_DB();
   CheckData();
 });
